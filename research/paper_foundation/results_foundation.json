@@ -1,0 +1,558 @@
+{
+  "metrics": {
+    "option_bias": {
+      "n_valid": 20,
+      "mcq_accuracy": 0.85,
+      "oe_level_a": 0.5,
+      "oe_level_b": 0.2,
+      "oe_level_c": 0.3,
+      "option_bias": 0.35,
+      "adjusted_option_bias": 0.25,
+      "relative_option_bias_pct": 41.18
+    },
+    "mcq_calibration": {
+      "ece": 0.0725,
+      "sw_ece": 0.0725,
+      "brier": 0.0974,
+      "bins": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "n": 0,
+          "acc": 0,
+          "conf": 0,
+          "gap": 0
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "n": 0,
+          "acc": 0,
+          "conf": 0,
+          "gap": 0
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.30000000000000004,
+          "n": 0,
+          "acc": 0,
+          "conf": 0,
+          "gap": 0
+        },
+        {
+          "lo": 0.30000000000000004,
+          "hi": 0.4,
+          "n": 0,
+          "acc": 0,
+          "conf": 0,
+          "gap": 0
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "n": 0,
+          "acc": 0,
+          "conf": 0,
+          "gap": 0
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6,
+          "n": 1,
+          "acc": 0.0,
+          "conf": 0.5,
+          "gap": 0.5
+        },
+        {
+          "lo": 0.6000000000000001,
+          "hi": 0.7000000000000001,
+          "n": 0,
+          "acc": 0,
+          "conf": 0,
+          "gap": 0
+        },
+        {
+          "lo": 0.7000000000000001,
+          "hi": 0.8,
+          "n": 0,
+          "acc": 0,
+          "conf": 0,
+          "gap": 0
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 3,
+          "acc": 0.6667,
+          "conf": 0.85,
+          "gap": 0.1833
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "n": 16,
+          "acc": 0.9375,
+          "conf": 0.9125,
+          "gap": 0.025
+        }
+      ],
+      "mean_confidence": 0.8825,
+      "mean_accuracy": 0.85
+    },
+    "oe_calibration": {
+      "ece": 0.4425,
+      "sw_ece": 0.4425,
+      "brier": 0.4261,
+      "bins": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "n": 0,
+          "acc": 0,
+          "conf": 0,
+          "gap": 0
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "n": 0,
+          "acc": 0,
+          "conf": 0,
+          "gap": 0
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.30000000000000004,
+          "n": 0,
+          "acc": 0,
+          "conf": 0,
+          "gap": 0
+        },
+        {
+          "lo": 0.30000000000000004,
+          "hi": 0.4,
+          "n": 0,
+          "acc": 0,
+          "conf": 0,
+          "gap": 0
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "n": 0,
+          "acc": 0,
+          "conf": 0,
+          "gap": 0
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6000000000000001,
+          "n": 0,
+          "acc": 0,
+          "conf": 0,
+          "gap": 0
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.7,
+          "n": 1,
+          "acc": 1.0,
+          "conf": 0.7,
+          "gap": 0.3
+        },
+        {
+          "lo": 0.7000000000000001,
+          "hi": 0.8,
+          "n": 0,
+          "acc": 0,
+          "conf": 0,
+          "gap": 0
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 2,
+          "acc": 0.0,
+          "conf": 0.85,
+          "gap": 0.85
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "n": 17,
+          "acc": 0.5294,
+          "conf": 0.9324,
+          "gap": 0.4029
+        }
+      ],
+      "mean_confidence": 0.9125,
+      "mean_accuracy": 0.5
+    },
+    "topic_breakdown": {
+      "step1": {
+        "n_valid": 9,
+        "mcq_accuracy": 0.7778,
+        "oe_level_a": 0.4444,
+        "oe_level_b": 0.2222,
+        "oe_level_c": 0.3333,
+        "option_bias": 0.3333,
+        "adjusted_option_bias": 0.2222,
+        "relative_option_bias_pct": 42.86
+      },
+      "step2&3": {
+        "n_valid": 11,
+        "mcq_accuracy": 0.9091,
+        "oe_level_a": 0.5455,
+        "oe_level_b": 0.1818,
+        "oe_level_c": 0.2727,
+        "option_bias": 0.3636,
+        "adjusted_option_bias": 0.2727,
+        "relative_option_bias_pct": 40.0
+      }
+    },
+    "overconfident_wrong_mcq": [
+      {
+        "id": 0,
+        "topic": "step1",
+        "confidence": 90.0,
+        "question_preview": "A junior orthopaedic surgery resident is completing a carpal tunnel repair with the department chair"
+      },
+      {
+        "id": 5,
+        "topic": "step2&3",
+        "confidence": 85.0,
+        "question_preview": "A 39-year-old man presents to the emergency department because of progressively worsening chest pain"
+      }
+    ],
+    "experiment_info": {
+      "model": "gpt-4o",
+      "judge_model": "gpt-4o",
+      "n_samples": 20,
+      "elapsed_seconds": 88.7,
+      "smoke_test": true,
+      "timestamp": "2026-02-06 15:42:17"
+    }
+  },
+  "raw_results": [
+    {
+      "id": 0,
+      "topic": "step1",
+      "question": "A junior orthopaedic surgery resident is completing a carpal tunnel repair with the department chairman as the attending physician. During the case, the resident inadvertently cuts a flexor tendon. Th",
+      "correct_answer": "Tell the attending that he cannot fail to disclose this mistake",
+      "correct_idx": "B",
+      "mcq_answer": "A",
+      "mcq_response": "Answer: A\nConfidence: 90%",
+      "mcq_correct": false,
+      "mcq_confidence": 90.0,
+      "oe_answer": "The resident should report the complication in the operative report and inform the patient about the incident, as it is important to maintain transparency and adhere to ethical standards in patient ca",
+      "oe_response": "Answer: The resident should report the complication in the operative report and inform the patient about the incident, as it is important to maintain transparency and adhere to ethical standards in patient care.\nConfidence: 95%",
+      "oe_confidence": 95.0,
+      "oe_level": "A",
+      "judge_reasoning": "The model's answer is clinically correct and semantically equivalent to the correct answer. It emphasizes the importance of reporting the complication and maintaining transparency, which aligns with t"
+    },
+    {
+      "id": 1,
+      "topic": "step1",
+      "question": "A 67-year-old man with transitional cell carcinoma of the bladder comes to the physician because of a 2-day history of ringing sensation in his ear. He received this first course of neoadjuvant chemot",
+      "correct_answer": "Cross-linking of DNA",
+      "correct_idx": "D",
+      "mcq_answer": "D",
+      "mcq_response": "Answer: D  \nConfidence: 90%",
+      "mcq_correct": true,
+      "mcq_confidence": 90.0,
+      "oe_answer": "Cross-linking of DNA",
+      "oe_response": "Answer: Cross-linking of DNA\nConfidence: 90%",
+      "oe_confidence": 90.0,
+      "oe_level": "A",
+      "judge_reasoning": "The model's answer is clinically correct and semantically equivalent to the correct answer. Both indicate that the beneficial effect of the drug is due to the cross-linking of DNA, which is a known me"
+    },
+    {
+      "id": 2,
+      "topic": "step2&3",
+      "question": "Two weeks after undergoing an emergency cardiac catherization with stenting for unstable angina pectoris, a 61-year-old man has decreased urinary output and malaise. He has type 2 diabetes mellitus an",
+      "correct_answer": "Cholesterol embolization",
+      "correct_idx": "B",
+      "mcq_answer": "B",
+      "mcq_response": "Answer: B  \nConfidence: 90%",
+      "mcq_correct": true,
+      "mcq_confidence": 90.0,
+      "oe_answer": "Cholesterol embolization syndrome (atheroembolism)",
+      "oe_response": "Answer: Cholesterol embolization syndrome (atheroembolism)\nConfidence: 95%",
+      "oe_confidence": 95.0,
+      "oe_level": "A",
+      "judge_reasoning": "The model's answer 'Cholesterol embolization syndrome (atheroembolism)' is semantically equivalent to the correct answer 'Cholesterol embolization'. Both refer to the same clinical condition where cho"
+    },
+    {
+      "id": 3,
+      "topic": "step1",
+      "question": "A 39-year-old woman is brought to the emergency department because of fevers, chills, and left lower quadrant pain. Her temperature is 39.1°C (102.3°F), pulse is 126/min, respirations are 28/min, and ",
+      "correct_answer": "Lactose-fermenting, gram-negative rods forming pink colonies on MacConkey agar",
+      "correct_idx": "D",
+      "mcq_answer": "D",
+      "mcq_response": "Answer: D  \nConfidence: 90%",
+      "mcq_correct": true,
+      "mcq_confidence": 90.0,
+      "oe_answer": "Neisseria gonorrhoeae",
+      "oe_response": "Answer: Neisseria gonorrhoeae  \nConfidence: 90%",
+      "oe_confidence": 90.0,
+      "oe_level": "C",
+      "judge_reasoning": "The model's answer of Neisseria gonorrhoeae is clinically incorrect because it is a gram-negative diplococcus, not a lactose-fermenting, gram-negative rod. The clinical presentation and laboratory fin"
+    },
+    {
+      "id": 4,
+      "topic": "step2&3",
+      "question": "A 35-year-old man comes to the physician because of itchy, watery eyes for the past week. He has also been sneezing multiple times a day during this period. He had a similar episode 1 year ago around ",
+      "correct_answer": "Ketotifen eye drops",
+      "correct_idx": "B",
+      "mcq_answer": "B",
+      "mcq_response": "Answer: B  \nConfidence: 90%",
+      "mcq_correct": true,
+      "mcq_confidence": 90.0,
+      "oe_answer": "Antihistamine eye drops",
+      "oe_response": "Answer: Antihistamine eye drops\nConfidence: 95%",
+      "oe_confidence": 95.0,
+      "oe_level": "B",
+      "judge_reasoning": "The model's answer 'antihistamine eye drops' is in the right direction as ketotifen is an antihistamine. However, it lacks specificity. Ketotifen is a specific type of antihistamine eye drop that is p"
+    },
+    {
+      "id": 5,
+      "topic": "step2&3",
+      "question": "A 39-year-old man presents to the emergency department because of progressively worsening chest pain and nausea that started at a local bar 30 minutes prior. The pain radiates to the epigastric area. ",
+      "correct_answer": "Reassurance and continuous monitoring",
+      "correct_idx": "D",
+      "mcq_answer": "A",
+      "mcq_response": "Answer: A  \nConfidence: 85%",
+      "mcq_correct": false,
+      "mcq_confidence": 85.0,
+      "oe_answer": "Administer oxygen and aspirin, and perform an ECG.",
+      "oe_response": "Answer: Administer oxygen and aspirin, and perform an ECG.\nConfidence: 90%",
+      "oe_confidence": 90.0,
+      "oe_level": "C",
+      "judge_reasoning": "The model's answer suggests immediate interventions for a suspected acute coronary syndrome, which is not the first step in management for this scenario. The correct answer focuses on reassurance and "
+    },
+    {
+      "id": 6,
+      "topic": "step1",
+      "question": "A 68-year-old male comes to the physician for evaluation of right flank pain. He has a history of diabetes and peripheral artery disease. His blood pressure is 160/90 mm Hg. Physical examination shows",
+      "correct_answer": "Common iliac artery aneurysm",
+      "correct_idx": "C",
+      "mcq_answer": "C",
+      "mcq_response": "Answer: C  \nConfidence: 85%",
+      "mcq_correct": true,
+      "mcq_confidence": 85.0,
+      "oe_answer": "Ureteral obstruction due to a kidney stone",
+      "oe_response": "Answer: Ureteral obstruction due to a kidney stone\nConfidence: 85%",
+      "oe_confidence": 85.0,
+      "oe_level": "C",
+      "judge_reasoning": "The model's answer suggests a kidney stone as the cause of ureteral obstruction, which is different from the correct answer of a common iliac artery aneurysm. The correct answer involves vascular path"
+    },
+    {
+      "id": 7,
+      "topic": "step2&3",
+      "question": "A 65-year-old man is brought to the emergency department 30 minutes after the onset of acute chest pain. He has hypertension and asthma. Current medications include atorvastatin, lisinopril, and an al",
+      "correct_answer": "Clopidogrel",
+      "correct_idx": "C",
+      "mcq_answer": "C",
+      "mcq_response": "Answer: C  \nConfidence: 95%",
+      "mcq_correct": true,
+      "mcq_confidence": 95.0,
+      "oe_answer": "Clopidogrel",
+      "oe_response": "Answer: Clopidogrel  \nConfidence: 95%",
+      "oe_confidence": 95.0,
+      "oe_level": "A",
+      "judge_reasoning": "The model's answer is clinically correct and semantically equivalent to the correct answer. Clopidogrel is an appropriate addition to the medication regimen for a patient with acute coronary syndrome "
+    },
+    {
+      "id": 8,
+      "topic": "step2&3",
+      "question": "A 37-year-old-woman presents to her primary care physician requesting a new form of birth control. She has been utilizing oral contraceptive pills (OCPs) for the past 8 years, but asks to switch to an",
+      "correct_answer": "Active or recurrent pelvic inflammatory disease (PID)",
+      "correct_idx": "B",
+      "mcq_answer": "B",
+      "mcq_response": "Answer: B  \nConfidence: 95%",
+      "mcq_correct": true,
+      "mcq_confidence": 95.0,
+      "oe_answer": "Wilson's disease",
+      "oe_response": "Answer: Wilson's disease\nConfidence: 95%",
+      "oe_confidence": 95.0,
+      "oe_level": "C",
+      "judge_reasoning": "The model's answer of Wilson's disease is clinically incorrect as a contraindication for copper IUD placement. The correct contraindication is active or recurrent pelvic inflammatory disease (PID). Wi"
+    },
+    {
+      "id": 9,
+      "topic": "step1",
+      "question": "A 23-year-old woman comes to the physician because she is embarrassed about the appearance of her nails. She has no history of serious illness and takes no medications. She appears well. A photograph ",
+      "correct_answer": "Silvery plaques on extensor surfaces",
+      "correct_idx": "A",
+      "mcq_answer": "",
+      "mcq_response": "I'm sorry, but I cannot answer the question without the photograph of the nails.",
+      "mcq_correct": false,
+      "mcq_confidence": 50.0,
+      "oe_answer": "Without the photograph of the nails, it is challenging to provide a specific answer. However, common nail conditions in young women that cause embarrassment include nail pitting, which is often associ",
+      "oe_response": "Answer: Without the photograph of the nails, it is challenging to provide a specific answer. However, common nail conditions in young women that cause embarrassment include nail pitting, which is often associated with psoriasis. Therefore, an additional finding could be psoriatic skin lesions.\nConfi",
+      "oe_confidence": 70.0,
+      "oe_level": "A",
+      "judge_reasoning": "The model's answer correctly identifies nail pitting as a common nail condition associated with psoriasis, which aligns with the correct answer of silvery plaques on extensor surfaces, a characteristi"
+    },
+    {
+      "id": 10,
+      "topic": "step1",
+      "question": "A 24-year-old G2P1 woman at 39 weeks’ gestation presents to the emergency department complaining of painful contractions occurring every 10 minutes for the past 2 hours, consistent with latent labor. ",
+      "correct_answer": "It is an HIV-1/HIV2 antibody differentiation immunoassay",
+      "correct_idx": "D",
+      "mcq_answer": "D",
+      "mcq_response": "Answer: D  \nConfidence: 95%",
+      "mcq_correct": true,
+      "mcq_confidence": 95.0,
+      "oe_answer": "The confirmatory test for HIV is typically a Western blot or an HIV-1/HIV-2 antibody differentiation immunoassay, which is used to confirm the presence of HIV antibodies after an initial positive scre",
+      "oe_response": "Answer: The confirmatory test for HIV is typically a Western blot or an HIV-1/HIV-2 antibody differentiation immunoassay, which is used to confirm the presence of HIV antibodies after an initial positive screening test, such as an ELISA or rapid test.\n\nConfidence: 95%",
+      "oe_confidence": 95.0,
+      "oe_level": "B",
+      "judge_reasoning": "The model's answer is partially correct as it mentions the HIV-1/HIV-2 antibody differentiation immunoassay, which is the correct confirmatory test. However, it also includes the Western blot, which i"
+    },
+    {
+      "id": 11,
+      "topic": "step2&3",
+      "question": "A 72-year-old man comes to the physician because of a 2-month history of fatigue and worsening abdominal pain. During this period, he also has excessive night sweats and shortness of breath on exertio",
+      "correct_answer": "Ruxolitinib",
+      "correct_idx": "D",
+      "mcq_answer": "D",
+      "mcq_response": "Answer: D  \nConfidence: 90%",
+      "mcq_correct": true,
+      "mcq_confidence": 90.0,
+      "oe_answer": "Ruxolitinib therapy",
+      "oe_response": "Answer: Ruxolitinib therapy  \nConfidence: 90%",
+      "oe_confidence": 90.0,
+      "oe_level": "A",
+      "judge_reasoning": "The model's answer 'Ruxolitinib therapy' is semantically equivalent to the correct answer 'Ruxolitinib'. Both indicate the use of the same medication for treatment, making the answer clinically correc"
+    },
+    {
+      "id": 12,
+      "topic": "step1",
+      "question": "A 20-year-old man comes to the physician because of worsening gait unsteadiness and bilateral hearing loss for 1 month. He has had intermittent tingling sensations on both cheeks over this time period",
+      "correct_answer": "Meningioma",
+      "correct_idx": "B",
+      "mcq_answer": "B",
+      "mcq_response": "Answer: B  \nConfidence: 95%",
+      "mcq_correct": true,
+      "mcq_confidence": 95.0,
+      "oe_answer": "Meningiomas",
+      "oe_response": "Answer: Meningiomas\nConfidence: 95%",
+      "oe_confidence": 95.0,
+      "oe_level": "A",
+      "judge_reasoning": "The model's answer 'Meningiomas' is semantically equivalent to the correct answer 'Meningioma' as it refers to the same condition, just in plural form. This does not change the clinical meaning or act"
+    },
+    {
+      "id": 13,
+      "topic": "step1",
+      "question": "A 47-year-old executive schedules an appointment his physician for a routine medical check-up. He currently has no complaints and claims to be “as fit as a fiddle.” The physical examination findings a",
+      "correct_answer": "A reduction in diastolic filling time",
+      "correct_idx": "D",
+      "mcq_answer": "D",
+      "mcq_response": "Answer: D  \nConfidence: 90%",
+      "mcq_correct": true,
+      "mcq_confidence": 90.0,
+      "oe_answer": "The intensity of the murmur decreases.",
+      "oe_response": "Answer: The intensity of the murmur decreases.\nConfidence: 90%",
+      "oe_confidence": 90.0,
+      "oe_level": "B",
+      "judge_reasoning": "The model's answer is partially correct because standing from a supine position decreases venous return, which can lead to a decrease in the intensity of certain murmurs, such as those associated with"
+    },
+    {
+      "id": 14,
+      "topic": "step1",
+      "question": "A microbiologist is studying the emergence of a virulent strain of the virus. After a detailed study of the virus and its life cycle, he proposes a theory: Initially, a host cell is co-infected with 2",
+      "correct_answer": "Rotavirus",
+      "correct_idx": "C",
+      "mcq_answer": "C",
+      "mcq_response": "Answer: C  \nConfidence: 90%",
+      "mcq_correct": true,
+      "mcq_confidence": 90.0,
+      "oe_answer": "Influenza virus",
+      "oe_response": "Answer: Influenza virus  \nConfidence: 95%",
+      "oe_confidence": 95.0,
+      "oe_level": "C",
+      "judge_reasoning": "The model's answer is clinically incorrect because the process described is genetic reassortment, which is characteristic of segmented RNA viruses like rotavirus. While influenza virus also undergoes "
+    },
+    {
+      "id": 15,
+      "topic": "step2&3",
+      "question": "A 59-year-old overweight woman presents to the urgent care clinic with the complaint of severe abdominal pain for the past 2 hours. She also complains of a dull pain in her back with nausea and vomiti",
+      "correct_answer": "Gallbladder cancer",
+      "correct_idx": "B",
+      "mcq_answer": "B",
+      "mcq_response": "Answer: B  \nConfidence: 85%",
+      "mcq_correct": true,
+      "mcq_confidence": 85.0,
+      "oe_answer": "Gallbladder cancer",
+      "oe_response": "Answer: Gallbladder cancer  \nConfidence: 90%",
+      "oe_confidence": 90.0,
+      "oe_level": "A",
+      "judge_reasoning": "The model's answer is clinically correct and semantically equivalent to the correct answer. Both identify gallbladder cancer as the diagnosis that should be excluded first, given the patient's symptom"
+    },
+    {
+      "id": 16,
+      "topic": "step2&3",
+      "question": "A 7-year-old boy is brought to his pediatrician’s office for a follow-up visit. He was diagnosed with asthma when he was 3 years old and has since been on treatment for the condition. He is currently ",
+      "correct_answer": "IL-4",
+      "correct_idx": "D",
+      "mcq_answer": "D",
+      "mcq_response": "Answer: D\nConfidence: 90%",
+      "mcq_correct": true,
+      "mcq_confidence": 90.0,
+      "oe_answer": "IL-4",
+      "oe_response": "Answer: IL-4  \nConfidence: 95%",
+      "oe_confidence": 95.0,
+      "oe_level": "A",
+      "judge_reasoning": "The model's answer is IL-4, which is semantically equivalent to the correct answer. IL-4 is known to favor class switching of antibodies, particularly to IgE, which is involved in allergic responses a"
+    },
+    {
+      "id": 17,
+      "topic": "step2&3",
+      "question": "A 3-month-old boy is brought the emergency department by his parents after an episode of cyanosis and muscle hypotonia that resolved after 2 minutes. Diagnostic evaluation fails to discover an exact e",
+      "correct_answer": "Matching",
+      "correct_idx": "D",
+      "mcq_answer": "D",
+      "mcq_response": "Answer: D  \nConfidence: 90%",
+      "mcq_correct": true,
+      "mcq_confidence": 90.0,
+      "oe_answer": "Matching",
+      "oe_response": "Answer: Matching\nConfidence: 95%",
+      "oe_confidence": 95.0,
+      "oe_level": "A",
+      "judge_reasoning": "The model's answer is 'Matching,' which is semantically equivalent to the correct answer. The study controlled for confounding bias by matching the two groups based on age, socioeconomic background, a"
+    },
+    {
+      "id": 18,
+      "topic": "step2&3",
+      "question": "A 29-year-old man presents to the emergency department due to central chest pain over the past 3 days which is constant and unrelated to exertion. The pain is sharp, severe, increases when lying down,",
+      "correct_answer": "Ibuprofen + colchicine +/- omeprazole",
+      "correct_idx": "B",
+      "mcq_answer": "B",
+      "mcq_response": "Answer: B  \nConfidence: 90%",
+      "mcq_correct": true,
+      "mcq_confidence": 90.0,
+      "oe_answer": "Nonsteroidal anti-inflammatory drugs (NSAIDs) such as ibuprofen",
+      "oe_response": "Answer: Nonsteroidal anti-inflammatory drugs (NSAIDs) such as ibuprofen\nConfidence: 95%",
+      "oe_confidence": 95.0,
+      "oe_level": "B",
+      "judge_reasoning": "The model's answer correctly identifies NSAIDs such as ibuprofen as part of the treatment for pericarditis, which is the likely diagnosis given the symptoms. However, it omits colchicine, which is als"
+    },
+    {
+      "id": 19,
+      "topic": "step2&3",
+      "question": "A 46-year-old man is brought to the emergency department for evaluation of altered mental status. He was found on the floor in front of his apartment. He is somnolent but responsive when aroused. His ",
+      "correct_answer": "Benzodiazepine intoxication\n\"",
+      "correct_idx": "D",
+      "mcq_answer": "D",
+      "mcq_response": "Answer: D\nConfidence: 90%",
+      "mcq_correct": true,
+      "mcq_confidence": 90.0,
+      "oe_answer": "Alcohol intoxication and possible Wernicke's encephalopathy due to thiamine deficiency",
+      "oe_response": "Answer: Alcohol intoxication and possible Wernicke's encephalopathy due to thiamine deficiency\nConfidence: 85%",
+      "oe_confidence": 85.0,
+      "oe_level": "C",
+      "judge_reasoning": "The model's answer suggests alcohol intoxication and Wernicke's encephalopathy, which are not consistent with the clinical presentation. The blood alcohol concentration is low, and the symptoms are mo"
+    }
+  ]
+}

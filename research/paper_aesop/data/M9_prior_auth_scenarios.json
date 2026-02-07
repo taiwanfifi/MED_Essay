@@ -1,0 +1,5037 @@
+[
+  {
+    "scenario_id": "SP1-001",
+    "sub_population": "SP1",
+    "patient_age": 28,
+    "patient_sex": "F",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Gestational diabetes (28 weeks)"
+    ],
+    "current_medications": [
+      "Prenatal vitamins"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (28 weeks)",
+    "organ_function": {
+      "eGFR": 110,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Insulin glargine",
+    "indication": "Gestational diabetes uncontrolled by diet",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None — insulin is safe in pregnancy",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Insulin is first-line for GDM uncontrolled by diet; Category B"
+  },
+  {
+    "scenario_id": "SP1-002",
+    "sub_population": "SP1",
+    "patient_age": 32,
+    "patient_sex": "F",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "UTI (E. coli, uncomplicated)",
+      "Pregnancy (16 weeks)"
+    ],
+    "current_medications": [
+      "Prenatal vitamins",
+      "Folic acid 5mg"
+    ],
+    "allergies": [
+      "Sulfonamides"
+    ],
+    "pregnancy_status": "Pregnant (16 weeks)",
+    "organ_function": {
+      "eGFR": 120,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Amoxicillin 500mg TID",
+    "indication": "Uncomplicated UTI",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None — amoxicillin is Category B, safe in pregnancy",
+    "interaction_details": "None significant",
+    "gold_standard_reasoning": "Amoxicillin is first-line for UTI in pregnancy; safe profile"
+  },
+  {
+    "scenario_id": "SP1-003",
+    "sub_population": "SP1",
+    "patient_age": 25,
+    "patient_sex": "F",
+    "patient_weight_kg": 58,
+    "chronic_conditions": [
+      "Nausea/vomiting of pregnancy"
+    ],
+    "current_medications": [
+      "Prenatal vitamins"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (10 weeks)",
+    "organ_function": {
+      "eGFR": 115,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Doxylamine/Pyridoxine (Diclegis)",
+    "indication": "Morning sickness",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None — FDA approved for nausea in pregnancy",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Doxylamine-pyridoxine is FDA Category A for pregnancy nausea"
+  },
+  {
+    "scenario_id": "SP1-004",
+    "sub_population": "SP1",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Hypothyroidism",
+      "Pregnancy (20 weeks)"
+    ],
+    "current_medications": [
+      "Levothyroxine 100mcg",
+      "Prenatal vitamins"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (20 weeks)",
+    "organ_function": {
+      "eGFR": 108,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Levothyroxine 125mcg",
+    "indication": "TSH elevated, dose adjustment needed",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None — levothyroxine dose increase expected in pregnancy",
+    "interaction_details": "Separate from prenatal vitamins by 4 hours (iron/calcium)",
+    "gold_standard_reasoning": "Thyroid hormone requirements increase 30-50% in pregnancy; dose escalation appropriate"
+  },
+  {
+    "scenario_id": "SP1-005",
+    "sub_population": "SP1",
+    "patient_age": 35,
+    "patient_sex": "F",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "Chronic hypertension",
+      "Pregnancy (12 weeks)"
+    ],
+    "current_medications": [
+      "Prenatal vitamins"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (12 weeks)",
+    "organ_function": {
+      "eGFR": 105,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Labetalol 100mg BID",
+    "indication": "Chronic hypertension in pregnancy",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None — labetalol is first-line antihypertensive in pregnancy",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Labetalol is preferred antihypertensive in pregnancy per ACOG"
+  },
+  {
+    "scenario_id": "SP1-006",
+    "sub_population": "SP1",
+    "patient_age": 27,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Depression (moderate)",
+      "Pregnancy (22 weeks)"
+    ],
+    "current_medications": [
+      "Sertraline 50mg",
+      "Prenatal vitamins"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (22 weeks)",
+    "organ_function": {
+      "eGFR": 118,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Sertraline 100mg",
+    "indication": "Worsening depression symptoms",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "Sertraline is relatively safe in pregnancy; benefits outweigh risks for moderate-severe depression",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "ACOG supports SSRI continuation when benefits outweigh risks; sertraline has most safety data"
+  },
+  {
+    "scenario_id": "SP1-007",
+    "sub_population": "SP1",
+    "patient_age": 29,
+    "patient_sex": "F",
+    "patient_weight_kg": 60,
+    "chronic_conditions": [
+      "Asthma (mild persistent)",
+      "Pregnancy (18 weeks)"
+    ],
+    "current_medications": [
+      "Budesonide inhaler",
+      "Prenatal vitamins"
+    ],
+    "allergies": [
+      "Aspirin"
+    ],
+    "pregnancy_status": "Pregnant (18 weeks)",
+    "organ_function": {
+      "eGFR": 112,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Albuterol inhaler PRN",
+    "indication": "Rescue inhaler for asthma exacerbation",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None — albuterol is safe in pregnancy",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Uncontrolled asthma in pregnancy poses greater risk than medication; albuterol Category C but well-established safety"
+  },
+  {
+    "scenario_id": "SP1-008",
+    "sub_population": "SP1",
+    "patient_age": 33,
+    "patient_sex": "F",
+    "patient_weight_kg": 72,
+    "chronic_conditions": [
+      "Iron deficiency anemia",
+      "Pregnancy (26 weeks)"
+    ],
+    "current_medications": [
+      "Prenatal vitamins"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (26 weeks)",
+    "organ_function": {
+      "eGFR": 110,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Ferrous sulfate 325mg BID",
+    "indication": "Hgb 9.2 g/dL, iron deficiency confirmed",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None — iron supplementation recommended in pregnancy anemia",
+    "interaction_details": "Separate from prenatal vitamins by 2 hours for optimal absorption",
+    "gold_standard_reasoning": "Oral iron is first-line for IDA in pregnancy; Hgb <10 warrants supplementation beyond prenatals"
+  },
+  {
+    "scenario_id": "SP1-009",
+    "sub_population": "SP1",
+    "patient_age": 31,
+    "patient_sex": "F",
+    "patient_weight_kg": 64,
+    "chronic_conditions": [
+      "Migraine",
+      "Pregnancy (14 weeks)"
+    ],
+    "current_medications": [
+      "Prenatal vitamins"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (14 weeks)",
+    "organ_function": {
+      "eGFR": 116,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Acetaminophen 1000mg PRN",
+    "indication": "Migraine headache",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None — acetaminophen is first-line analgesic in pregnancy",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Acetaminophen is the preferred analgesic in pregnancy; avoid NSAIDs"
+  },
+  {
+    "scenario_id": "SP1-010",
+    "sub_population": "SP1",
+    "patient_age": 26,
+    "patient_sex": "F",
+    "patient_weight_kg": 55,
+    "chronic_conditions": [
+      "Group B Strep positive",
+      "Pregnancy (37 weeks, labor)"
+    ],
+    "current_medications": [
+      "Prenatal vitamins"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (37 weeks, active labor)",
+    "organ_function": {
+      "eGFR": 110,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Penicillin G IV",
+    "indication": "GBS prophylaxis during labor",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None — IV penicillin is standard GBS prophylaxis",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "CDC recommends IV penicillin for GBS prophylaxis during labor"
+  },
+  {
+    "scenario_id": "SP1-011",
+    "sub_population": "SP1",
+    "patient_age": 29,
+    "patient_sex": "F",
+    "patient_weight_kg": 63,
+    "chronic_conditions": [
+      "Acne (severe cystic)",
+      "Pregnancy (8 weeks)"
+    ],
+    "current_medications": [
+      "Prenatal vitamins"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (8 weeks)",
+    "organ_function": {
+      "eGFR": 115,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Isotretinoin (Accutane)",
+    "indication": "Severe cystic acne",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "ABSOLUTE contraindication — Category X; known teratogen causing severe birth defects",
+    "interaction_details": "None relevant — drug itself is contraindicated",
+    "gold_standard_reasoning": "Isotretinoin is Category X — must be denied regardless of acne severity"
+  },
+  {
+    "scenario_id": "SP1-012",
+    "sub_population": "SP1",
+    "patient_age": 34,
+    "patient_sex": "F",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hypertension",
+      "Pregnancy (10 weeks)"
+    ],
+    "current_medications": [
+      "Prenatal vitamins"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (10 weeks)",
+    "organ_function": {
+      "eGFR": 108,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Lisinopril 10mg",
+    "indication": "Hypertension management",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "ABSOLUTE contraindication — ACE inhibitors are Category D/X in pregnancy; cause fetal renal agenesis, oligohydramnios",
+    "interaction_details": "N/A",
+    "gold_standard_reasoning": "ACE inhibitors contraindicated in all trimesters; switch to labetalol or nifedipine"
+  },
+  {
+    "scenario_id": "SP1-013",
+    "sub_population": "SP1",
+    "patient_age": 28,
+    "patient_sex": "F",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Epilepsy",
+      "Pregnancy (6 weeks)"
+    ],
+    "current_medications": [
+      "Prenatal vitamins",
+      "Folic acid 4mg"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (6 weeks)",
+    "organ_function": {
+      "eGFR": 118,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Valproic acid 500mg BID",
+    "indication": "Seizure prophylaxis",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "ABSOLUTE contraindication — Category X; highest teratogenicity among AEDs (neural tube defects, cognitive impairment)",
+    "interaction_details": "N/A",
+    "gold_standard_reasoning": "Valproate is Category X in pregnancy; switch to lamotrigine or levetiracetam"
+  },
+  {
+    "scenario_id": "SP1-014",
+    "sub_population": "SP1",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 60,
+    "chronic_conditions": [
+      "DVT",
+      "Pregnancy (20 weeks)"
+    ],
+    "current_medications": [
+      "Prenatal vitamins"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (20 weeks)",
+    "organ_function": {
+      "eGFR": 112,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Warfarin 5mg",
+    "indication": "DVT anticoagulation",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "ABSOLUTE contraindication — Category X; warfarin embryopathy (nasal hypoplasia, stippled epiphyses)",
+    "interaction_details": "N/A",
+    "gold_standard_reasoning": "Warfarin crosses placenta; use LMWH (enoxaparin) instead for DVT in pregnancy"
+  },
+  {
+    "scenario_id": "SP1-015",
+    "sub_population": "SP1",
+    "patient_age": 27,
+    "patient_sex": "F",
+    "patient_weight_kg": 58,
+    "chronic_conditions": [
+      "Hyperlipidemia",
+      "Pregnancy (12 weeks)"
+    ],
+    "current_medications": [
+      "Prenatal vitamins"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (12 weeks)",
+    "organ_function": {
+      "eGFR": 120,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Atorvastatin 20mg",
+    "indication": "Elevated LDL cholesterol",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "ABSOLUTE contraindication — Category X; statins inhibit cholesterol synthesis needed for fetal development",
+    "interaction_details": "N/A",
+    "gold_standard_reasoning": "All statins are Category X in pregnancy; discontinue and manage with diet/lifestyle"
+  },
+  {
+    "scenario_id": "SP1-016",
+    "sub_population": "SP1",
+    "patient_age": 32,
+    "patient_sex": "F",
+    "patient_weight_kg": 67,
+    "chronic_conditions": [
+      "Rheumatoid arthritis",
+      "Pregnancy (16 weeks)"
+    ],
+    "current_medications": [
+      "Prenatal vitamins",
+      "Hydroxychloroquine 200mg BID"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (16 weeks)",
+    "organ_function": {
+      "eGFR": 110,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Methotrexate 15mg weekly",
+    "indication": "RA flare",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "ABSOLUTE contraindication — Category X; methotrexate is an abortifacient and teratogen",
+    "interaction_details": "N/A",
+    "gold_standard_reasoning": "Methotrexate is absolutely contraindicated; continue hydroxychloroquine, consider low-dose prednisone for flare"
+  },
+  {
+    "scenario_id": "SP1-017",
+    "sub_population": "SP1",
+    "patient_age": 26,
+    "patient_sex": "F",
+    "patient_weight_kg": 56,
+    "chronic_conditions": [
+      "Migraine prophylaxis",
+      "Pregnancy (8 weeks)"
+    ],
+    "current_medications": [
+      "Prenatal vitamins"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (8 weeks)",
+    "organ_function": {
+      "eGFR": 115,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Topiramate 50mg BID",
+    "indication": "Migraine prophylaxis",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "ABSOLUTE contraindication — associated with cleft lip/palate; FDA boxed warning for pregnancy",
+    "interaction_details": "N/A",
+    "gold_standard_reasoning": "Topiramate has increased risk of oral clefts; use propranolol or amitriptyline (low dose) instead"
+  },
+  {
+    "scenario_id": "SP1-018",
+    "sub_population": "SP1",
+    "patient_age": 35,
+    "patient_sex": "F",
+    "patient_weight_kg": 73,
+    "chronic_conditions": [
+      "Bipolar disorder",
+      "Pregnancy (14 weeks)"
+    ],
+    "current_medications": [
+      "Prenatal vitamins"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (14 weeks)",
+    "organ_function": {
+      "eGFR": 106,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Lithium 300mg TID",
+    "indication": "Bipolar disorder maintenance",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Relative to absolute contraindication — Category D; Ebstein's anomaly risk (cardiac malformation); risk/benefit discussion required",
+    "interaction_details": "N/A",
+    "gold_standard_reasoning": "Lithium is Category D; first trimester exposure carries Ebstein's anomaly risk; consider lamotrigine as safer alternative"
+  },
+  {
+    "scenario_id": "SP1-019",
+    "sub_population": "SP1",
+    "patient_age": 29,
+    "patient_sex": "F",
+    "patient_weight_kg": 61,
+    "chronic_conditions": [
+      "Pain (musculoskeletal)",
+      "Pregnancy (30 weeks)"
+    ],
+    "current_medications": [
+      "Prenatal vitamins"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (30 weeks)",
+    "organ_function": {
+      "eGFR": 110,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Ibuprofen 400mg TID",
+    "indication": "Back pain",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "ABSOLUTE contraindication after 30 weeks — NSAIDs cause premature closure of ductus arteriosus",
+    "interaction_details": "N/A",
+    "gold_standard_reasoning": "NSAIDs contraindicated after 30 weeks; risk of premature DA closure and oligohydramnios; use acetaminophen"
+  },
+  {
+    "scenario_id": "SP1-020",
+    "sub_population": "SP1",
+    "patient_age": 31,
+    "patient_sex": "F",
+    "patient_weight_kg": 66,
+    "chronic_conditions": [
+      "Anxiety disorder",
+      "Pregnancy (7 weeks)"
+    ],
+    "current_medications": [
+      "Prenatal vitamins"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Pregnant (7 weeks)",
+    "organ_function": {
+      "eGFR": 114,
+      "child_pugh": "N/A"
+    },
+    "requested_drug": "Alprazolam 0.5mg TID",
+    "indication": "Anxiety",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Contraindicated — Category D; benzodiazepines associated with neonatal withdrawal, potential teratogenicity",
+    "interaction_details": "N/A",
+    "gold_standard_reasoning": "Benzodiazepines are Category D in pregnancy; prefer CBT, or if medication needed, use low-dose SSRI"
+  },
+  {
+    "scenario_id": "SP3-001",
+    "sub_population": "SP3",
+    "patient_age": 80,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hypertension",
+      "Osteoarthritis"
+    ],
+    "current_medications": [
+      "Amlodipine 5mg"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 55,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Acetaminophen 500mg TID",
+    "indication": "Osteoarthritis pain",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None — acetaminophen is preferred analgesic in elderly",
+    "interaction_details": "None significant",
+    "gold_standard_reasoning": "Acetaminophen is first-line for OA pain in elderly per Beers Criteria (avoids NSAIDs)"
+  },
+  {
+    "scenario_id": "SP3-002",
+    "sub_population": "SP3",
+    "patient_age": 78,
+    "patient_sex": "F",
+    "patient_weight_kg": 55,
+    "chronic_conditions": [
+      "Osteoporosis",
+      "Hypertension",
+      "GERD"
+    ],
+    "current_medications": [
+      "Amlodipine 5mg",
+      "Omeprazole 20mg"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 62,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Alendronate 70mg weekly",
+    "indication": "Osteoporosis (T-score -3.1)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None — bisphosphonate appropriate for severe osteoporosis",
+    "interaction_details": "Take on empty stomach, 30 min before other meds; monitor with concurrent PPI",
+    "gold_standard_reasoning": "Alendronate is first-line for osteoporosis; benefits outweigh PPI interaction concern"
+  },
+  {
+    "scenario_id": "SP3-003",
+    "sub_population": "SP3",
+    "patient_age": 82,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "Atrial fibrillation",
+      "Hypertension",
+      "CKD Stage 3"
+    ],
+    "current_medications": [
+      "Metoprolol 50mg BID",
+      "Lisinopril 10mg"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 45,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Apixaban 2.5mg BID",
+    "indication": "Stroke prevention in AF (CHA2DS2-VASc 4)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None — apixaban 2.5mg is renally dose-adjusted and preferred in elderly AF",
+    "interaction_details": "Monitor renal function; avoid concurrent NSAIDs",
+    "gold_standard_reasoning": "Apixaban 2.5mg BID is preferred DOAC for elderly with CKD3/AF; reduced dose appropriate"
+  },
+  {
+    "scenario_id": "SP3-004",
+    "sub_population": "SP3",
+    "patient_age": 76,
+    "patient_sex": "F",
+    "patient_weight_kg": 60,
+    "chronic_conditions": [
+      "Type 2 Diabetes",
+      "Hypertension"
+    ],
+    "current_medications": [
+      "Metformin 500mg BID",
+      "Lisinopril 10mg"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 58,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Empagliflozin 10mg",
+    "indication": "T2DM with cardiovascular risk",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None — SGLT2 inhibitors have CV/renal benefit in elderly T2DM",
+    "interaction_details": "Monitor for volume depletion with concurrent ACEi",
+    "gold_standard_reasoning": "EMPA-REG OUTCOME trial supports CV benefit; monitor for dehydration in elderly"
+  },
+  {
+    "scenario_id": "SP3-005",
+    "sub_population": "SP3",
+    "patient_age": 79,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Insomnia",
+      "BPH",
+      "Hypertension"
+    ],
+    "current_medications": [
+      "Tamsulosin 0.4mg",
+      "Lisinopril 20mg"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 52,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Melatonin 3mg",
+    "indication": "Insomnia",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None — melatonin is preferred sleep aid in elderly per Beers",
+    "interaction_details": "None significant",
+    "gold_standard_reasoning": "Melatonin is safer than benzodiazepines/Z-drugs for elderly insomnia per AGS Beers Criteria"
+  },
+  {
+    "scenario_id": "SP3-006",
+    "sub_population": "SP3",
+    "patient_age": 81,
+    "patient_sex": "F",
+    "patient_weight_kg": 52,
+    "chronic_conditions": [
+      "Insomnia",
+      "Fall history",
+      "Osteoporosis"
+    ],
+    "current_medications": [
+      "Alendronate 70mg weekly",
+      "Calcium/VitD"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 60,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Diazepam 5mg HS",
+    "indication": "Insomnia",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Beers Criteria: Long-acting benzodiazepines in elderly increase fall/fracture risk",
+    "interaction_details": "Additive CNS depression",
+    "gold_standard_reasoning": "Diazepam on Beers Criteria list; fall history + osteoporosis = high fracture risk; use melatonin or CBT-I"
+  },
+  {
+    "scenario_id": "SP3-007",
+    "sub_population": "SP3",
+    "patient_age": 83,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "BPH",
+      "Urinary retention history",
+      "Hypertension"
+    ],
+    "current_medications": [
+      "Tamsulosin 0.4mg",
+      "Amlodipine 5mg"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 48,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Diphenhydramine 50mg",
+    "indication": "Allergic rhinitis",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Beers Criteria: Strong anticholinergic; worsens urinary retention in BPH",
+    "interaction_details": "Anticholinergic burden additive",
+    "gold_standard_reasoning": "Diphenhydramine strongly anticholinergic; BPH + urinary retention history = contraindicated; use cetirizine or loratadine"
+  },
+  {
+    "scenario_id": "SP3-008",
+    "sub_population": "SP3",
+    "patient_age": 85,
+    "patient_sex": "F",
+    "patient_weight_kg": 48,
+    "chronic_conditions": [
+      "Chronic pain",
+      "Dementia (mild)",
+      "Fall history"
+    ],
+    "current_medications": [
+      "Donepezil 10mg",
+      "Memantine 10mg"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 42,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Meperidine 50mg Q6H",
+    "indication": "Chronic pain",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Beers Criteria: Meperidine contraindicated in elderly; neurotoxic metabolite normeperidine accumulates in renal impairment",
+    "interaction_details": "Risk of serotonin syndrome, seizures, falls",
+    "gold_standard_reasoning": "Meperidine is on Beers list — never use in elderly; normeperidine neurotoxicity; use acetaminophen ± tramadol (cautiously)"
+  },
+  {
+    "scenario_id": "SP3-009",
+    "sub_population": "SP3",
+    "patient_age": 77,
+    "patient_sex": "M",
+    "patient_weight_kg": 72,
+    "chronic_conditions": [
+      "Peptic ulcer disease (history)",
+      "Osteoarthritis",
+      "CKD Stage 3"
+    ],
+    "current_medications": [
+      "Omeprazole 20mg",
+      "Acetaminophen 500mg TID"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 40,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Ketorolac 30mg IM",
+    "indication": "Acute OA flare pain",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Multiple contraindications: Beers (NSAID in elderly), PUD history, CKD Stage 3 (eGFR 40)",
+    "interaction_details": "GI bleeding risk + nephrotoxicity",
+    "gold_standard_reasoning": "Triple contraindication: Beers NSAID avoidance, PUD history, CKD; use acetaminophen + topical diclofenac if needed"
+  },
+  {
+    "scenario_id": "SP3-010",
+    "sub_population": "SP3",
+    "patient_age": 80,
+    "patient_sex": "F",
+    "patient_weight_kg": 50,
+    "chronic_conditions": [
+      "Diabetes",
+      "Recurrent hypoglycemia",
+      "Dementia"
+    ],
+    "current_medications": [
+      "Metformin 1000mg BID",
+      "Donepezil 5mg"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 55,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Glyburide 5mg BID",
+    "indication": "A1c 8.2%, additional glycemic control",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Beers Criteria: Long-acting sulfonylureas in elderly cause prolonged hypoglycemia; especially dangerous with dementia (cannot report symptoms)",
+    "interaction_details": "Hypoglycemia risk amplified",
+    "gold_standard_reasoning": "Glyburide on Beers list for elderly; recurrent hypo + dementia = extreme danger; use DPP-4 inhibitor (sitagliptin) or dose-adjust metformin"
+  },
+  {
+    "scenario_id": "SP2-001",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 1"
+    ],
+    "current_medications": [
+      "Baseline med set 1"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-1",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-002",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 2"
+    ],
+    "current_medications": [
+      "Baseline med set 2"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-2",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-003",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 3"
+    ],
+    "current_medications": [
+      "Baseline med set 3"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-3",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-004",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 4"
+    ],
+    "current_medications": [
+      "Baseline med set 4"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-4",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-005",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 5"
+    ],
+    "current_medications": [
+      "Baseline med set 5"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-5",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-006",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 6"
+    ],
+    "current_medications": [
+      "Baseline med set 6"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-6",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-007",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 7"
+    ],
+    "current_medications": [
+      "Baseline med set 7"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-7",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-008",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 8"
+    ],
+    "current_medications": [
+      "Baseline med set 8"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-8",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-009",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 9"
+    ],
+    "current_medications": [
+      "Baseline med set 9"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-9",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-010",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 10"
+    ],
+    "current_medications": [
+      "Baseline med set 10"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-10",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-011",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 11"
+    ],
+    "current_medications": [
+      "Baseline med set 11"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-11",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Dose calculation error — contraindicated for Pediatric (<12y)",
+    "interaction_details": "Interaction flagged by Weight-based dosing",
+    "gold_standard_reasoning": "Contraindicated for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-012",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 12"
+    ],
+    "current_medications": [
+      "Baseline med set 12"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-12",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Dose calculation error — contraindicated for Pediatric (<12y)",
+    "interaction_details": "Interaction flagged by Weight-based dosing",
+    "gold_standard_reasoning": "Contraindicated for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-013",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 13"
+    ],
+    "current_medications": [
+      "Baseline med set 13"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-13",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Dose calculation error — contraindicated for Pediatric (<12y)",
+    "interaction_details": "Interaction flagged by Weight-based dosing",
+    "gold_standard_reasoning": "Contraindicated for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-014",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 14"
+    ],
+    "current_medications": [
+      "Baseline med set 14"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-14",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Dose calculation error — contraindicated for Pediatric (<12y)",
+    "interaction_details": "Interaction flagged by Weight-based dosing",
+    "gold_standard_reasoning": "Contraindicated for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-015",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 15"
+    ],
+    "current_medications": [
+      "Baseline med set 15"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-15",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Dose calculation error — contraindicated for Pediatric (<12y)",
+    "interaction_details": "Interaction flagged by Weight-based dosing",
+    "gold_standard_reasoning": "Contraindicated for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-016",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 16"
+    ],
+    "current_medications": [
+      "Baseline med set 16"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-16",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Dose calculation error — contraindicated for Pediatric (<12y)",
+    "interaction_details": "Interaction flagged by Weight-based dosing",
+    "gold_standard_reasoning": "Contraindicated for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-017",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 17"
+    ],
+    "current_medications": [
+      "Baseline med set 17"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-17",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Dose calculation error — contraindicated for Pediatric (<12y)",
+    "interaction_details": "Interaction flagged by Weight-based dosing",
+    "gold_standard_reasoning": "Contraindicated for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-018",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 18"
+    ],
+    "current_medications": [
+      "Baseline med set 18"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-18",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Dose calculation error — contraindicated for Pediatric (<12y)",
+    "interaction_details": "Interaction flagged by Weight-based dosing",
+    "gold_standard_reasoning": "Contraindicated for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-019",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 19"
+    ],
+    "current_medications": [
+      "Baseline med set 19"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-19",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Dose calculation error — contraindicated for Pediatric (<12y)",
+    "interaction_details": "Interaction flagged by Weight-based dosing",
+    "gold_standard_reasoning": "Contraindicated for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP2-020",
+    "sub_population": "SP2",
+    "patient_age": 8,
+    "patient_sex": "M",
+    "patient_weight_kg": 25,
+    "chronic_conditions": [
+      "Pediatric (<12y) condition set 20"
+    ],
+    "current_medications": [
+      "Baseline med set 20"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP2-20",
+    "indication": "Test indication for Pediatric (<12y)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Dose calculation error — contraindicated for Pediatric (<12y)",
+    "interaction_details": "Interaction flagged by Weight-based dosing",
+    "gold_standard_reasoning": "Contraindicated for Pediatric (<12y) per Weight-based dosing"
+  },
+  {
+    "scenario_id": "SP4-001",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 1"
+    ],
+    "current_medications": [
+      "Baseline med set 1"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-1",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-002",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 2"
+    ],
+    "current_medications": [
+      "Baseline med set 2"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-2",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-003",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 3"
+    ],
+    "current_medications": [
+      "Baseline med set 3"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-3",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-004",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 4"
+    ],
+    "current_medications": [
+      "Baseline med set 4"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-4",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-005",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 5"
+    ],
+    "current_medications": [
+      "Baseline med set 5"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-5",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-006",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 6"
+    ],
+    "current_medications": [
+      "Baseline med set 6"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-6",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-007",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 7"
+    ],
+    "current_medications": [
+      "Baseline med set 7"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-7",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-008",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 8"
+    ],
+    "current_medications": [
+      "Baseline med set 8"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-8",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-009",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 9"
+    ],
+    "current_medications": [
+      "Baseline med set 9"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-9",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-010",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 10"
+    ],
+    "current_medications": [
+      "Baseline med set 10"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-10",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-011",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 11"
+    ],
+    "current_medications": [
+      "Baseline med set 11"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-11",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Nephrotoxicity — contraindicated for CKD Stage 4-5",
+    "interaction_details": "Interaction flagged by KDIGO renal dosing",
+    "gold_standard_reasoning": "Contraindicated for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-012",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 12"
+    ],
+    "current_medications": [
+      "Baseline med set 12"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-12",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Nephrotoxicity — contraindicated for CKD Stage 4-5",
+    "interaction_details": "Interaction flagged by KDIGO renal dosing",
+    "gold_standard_reasoning": "Contraindicated for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-013",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 13"
+    ],
+    "current_medications": [
+      "Baseline med set 13"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-13",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Nephrotoxicity — contraindicated for CKD Stage 4-5",
+    "interaction_details": "Interaction flagged by KDIGO renal dosing",
+    "gold_standard_reasoning": "Contraindicated for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-014",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 14"
+    ],
+    "current_medications": [
+      "Baseline med set 14"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-14",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Nephrotoxicity — contraindicated for CKD Stage 4-5",
+    "interaction_details": "Interaction flagged by KDIGO renal dosing",
+    "gold_standard_reasoning": "Contraindicated for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-015",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 15"
+    ],
+    "current_medications": [
+      "Baseline med set 15"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-15",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Nephrotoxicity — contraindicated for CKD Stage 4-5",
+    "interaction_details": "Interaction flagged by KDIGO renal dosing",
+    "gold_standard_reasoning": "Contraindicated for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-016",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 16"
+    ],
+    "current_medications": [
+      "Baseline med set 16"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-16",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Nephrotoxicity — contraindicated for CKD Stage 4-5",
+    "interaction_details": "Interaction flagged by KDIGO renal dosing",
+    "gold_standard_reasoning": "Contraindicated for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-017",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 17"
+    ],
+    "current_medications": [
+      "Baseline med set 17"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-17",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Nephrotoxicity — contraindicated for CKD Stage 4-5",
+    "interaction_details": "Interaction flagged by KDIGO renal dosing",
+    "gold_standard_reasoning": "Contraindicated for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-018",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 18"
+    ],
+    "current_medications": [
+      "Baseline med set 18"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-18",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Nephrotoxicity — contraindicated for CKD Stage 4-5",
+    "interaction_details": "Interaction flagged by KDIGO renal dosing",
+    "gold_standard_reasoning": "Contraindicated for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-019",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 19"
+    ],
+    "current_medications": [
+      "Baseline med set 19"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-19",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Nephrotoxicity — contraindicated for CKD Stage 4-5",
+    "interaction_details": "Interaction flagged by KDIGO renal dosing",
+    "gold_standard_reasoning": "Contraindicated for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP4-020",
+    "sub_population": "SP4",
+    "patient_age": 65,
+    "patient_sex": "M",
+    "patient_weight_kg": 75,
+    "chronic_conditions": [
+      "CKD Stage 4-5 condition set 20"
+    ],
+    "current_medications": [
+      "Baseline med set 20"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 15,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP4-20",
+    "indication": "Test indication for CKD Stage 4-5",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Nephrotoxicity — contraindicated for CKD Stage 4-5",
+    "interaction_details": "Interaction flagged by KDIGO renal dosing",
+    "gold_standard_reasoning": "Contraindicated for CKD Stage 4-5 per KDIGO renal dosing"
+  },
+  {
+    "scenario_id": "SP5-001",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 1"
+    ],
+    "current_medications": [
+      "Baseline med set 1"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-1",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-002",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 2"
+    ],
+    "current_medications": [
+      "Baseline med set 2"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-2",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-003",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 3"
+    ],
+    "current_medications": [
+      "Baseline med set 3"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-3",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-004",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 4"
+    ],
+    "current_medications": [
+      "Baseline med set 4"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-4",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-005",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 5"
+    ],
+    "current_medications": [
+      "Baseline med set 5"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-5",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-006",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 6"
+    ],
+    "current_medications": [
+      "Baseline med set 6"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-6",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-007",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 7"
+    ],
+    "current_medications": [
+      "Baseline med set 7"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-7",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-008",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 8"
+    ],
+    "current_medications": [
+      "Baseline med set 8"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-8",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-009",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 9"
+    ],
+    "current_medications": [
+      "Baseline med set 9"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-9",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-010",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 10"
+    ],
+    "current_medications": [
+      "Baseline med set 10"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-10",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-011",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 11"
+    ],
+    "current_medications": [
+      "Baseline med set 11"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-11",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Hepatotoxicity — contraindicated for Hepatic (Child-Pugh C)",
+    "interaction_details": "Interaction flagged by Hepatic metabolism",
+    "gold_standard_reasoning": "Contraindicated for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-012",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 12"
+    ],
+    "current_medications": [
+      "Baseline med set 12"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-12",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Hepatotoxicity — contraindicated for Hepatic (Child-Pugh C)",
+    "interaction_details": "Interaction flagged by Hepatic metabolism",
+    "gold_standard_reasoning": "Contraindicated for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-013",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 13"
+    ],
+    "current_medications": [
+      "Baseline med set 13"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-13",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Hepatotoxicity — contraindicated for Hepatic (Child-Pugh C)",
+    "interaction_details": "Interaction flagged by Hepatic metabolism",
+    "gold_standard_reasoning": "Contraindicated for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-014",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 14"
+    ],
+    "current_medications": [
+      "Baseline med set 14"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-14",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Hepatotoxicity — contraindicated for Hepatic (Child-Pugh C)",
+    "interaction_details": "Interaction flagged by Hepatic metabolism",
+    "gold_standard_reasoning": "Contraindicated for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-015",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 15"
+    ],
+    "current_medications": [
+      "Baseline med set 15"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-15",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Hepatotoxicity — contraindicated for Hepatic (Child-Pugh C)",
+    "interaction_details": "Interaction flagged by Hepatic metabolism",
+    "gold_standard_reasoning": "Contraindicated for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-016",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 16"
+    ],
+    "current_medications": [
+      "Baseline med set 16"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-16",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Hepatotoxicity — contraindicated for Hepatic (Child-Pugh C)",
+    "interaction_details": "Interaction flagged by Hepatic metabolism",
+    "gold_standard_reasoning": "Contraindicated for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-017",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 17"
+    ],
+    "current_medications": [
+      "Baseline med set 17"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-17",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Hepatotoxicity — contraindicated for Hepatic (Child-Pugh C)",
+    "interaction_details": "Interaction flagged by Hepatic metabolism",
+    "gold_standard_reasoning": "Contraindicated for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-018",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 18"
+    ],
+    "current_medications": [
+      "Baseline med set 18"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-18",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Hepatotoxicity — contraindicated for Hepatic (Child-Pugh C)",
+    "interaction_details": "Interaction flagged by Hepatic metabolism",
+    "gold_standard_reasoning": "Contraindicated for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-019",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 19"
+    ],
+    "current_medications": [
+      "Baseline med set 19"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-19",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Hepatotoxicity — contraindicated for Hepatic (Child-Pugh C)",
+    "interaction_details": "Interaction flagged by Hepatic metabolism",
+    "gold_standard_reasoning": "Contraindicated for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP5-020",
+    "sub_population": "SP5",
+    "patient_age": 58,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Hepatic (Child-Pugh C) condition set 20"
+    ],
+    "current_medications": [
+      "Baseline med set 20"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "C"
+    },
+    "requested_drug": "Test drug SP5-20",
+    "indication": "Test indication for Hepatic (Child-Pugh C)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Hepatotoxicity — contraindicated for Hepatic (Child-Pugh C)",
+    "interaction_details": "Interaction flagged by Hepatic metabolism",
+    "gold_standard_reasoning": "Contraindicated for Hepatic (Child-Pugh C) per Hepatic metabolism"
+  },
+  {
+    "scenario_id": "SP6-001",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 1"
+    ],
+    "current_medications": [
+      "Baseline med set 1"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-1",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-002",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 2"
+    ],
+    "current_medications": [
+      "Baseline med set 2"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-2",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-003",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 3"
+    ],
+    "current_medications": [
+      "Baseline med set 3"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-3",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-004",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 4"
+    ],
+    "current_medications": [
+      "Baseline med set 4"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-4",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-005",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 5"
+    ],
+    "current_medications": [
+      "Baseline med set 5"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-5",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-006",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 6"
+    ],
+    "current_medications": [
+      "Baseline med set 6"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-6",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-007",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 7"
+    ],
+    "current_medications": [
+      "Baseline med set 7"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-7",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-008",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 8"
+    ],
+    "current_medications": [
+      "Baseline med set 8"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-8",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-009",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 9"
+    ],
+    "current_medications": [
+      "Baseline med set 9"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-9",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-010",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 10"
+    ],
+    "current_medications": [
+      "Baseline med set 10"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-10",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-011",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 11"
+    ],
+    "current_medications": [
+      "Baseline med set 11"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-11",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Drug interactions — contraindicated for Polypharmacy (≥5 drugs)",
+    "interaction_details": "Interaction flagged by Interaction matrix",
+    "gold_standard_reasoning": "Contraindicated for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-012",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 12"
+    ],
+    "current_medications": [
+      "Baseline med set 12"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-12",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Drug interactions — contraindicated for Polypharmacy (≥5 drugs)",
+    "interaction_details": "Interaction flagged by Interaction matrix",
+    "gold_standard_reasoning": "Contraindicated for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-013",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 13"
+    ],
+    "current_medications": [
+      "Baseline med set 13"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-13",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Drug interactions — contraindicated for Polypharmacy (≥5 drugs)",
+    "interaction_details": "Interaction flagged by Interaction matrix",
+    "gold_standard_reasoning": "Contraindicated for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-014",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 14"
+    ],
+    "current_medications": [
+      "Baseline med set 14"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-14",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Drug interactions — contraindicated for Polypharmacy (≥5 drugs)",
+    "interaction_details": "Interaction flagged by Interaction matrix",
+    "gold_standard_reasoning": "Contraindicated for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-015",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 15"
+    ],
+    "current_medications": [
+      "Baseline med set 15"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-15",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Drug interactions — contraindicated for Polypharmacy (≥5 drugs)",
+    "interaction_details": "Interaction flagged by Interaction matrix",
+    "gold_standard_reasoning": "Contraindicated for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-016",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 16"
+    ],
+    "current_medications": [
+      "Baseline med set 16"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-16",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Drug interactions — contraindicated for Polypharmacy (≥5 drugs)",
+    "interaction_details": "Interaction flagged by Interaction matrix",
+    "gold_standard_reasoning": "Contraindicated for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-017",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 17"
+    ],
+    "current_medications": [
+      "Baseline med set 17"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-17",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Drug interactions — contraindicated for Polypharmacy (≥5 drugs)",
+    "interaction_details": "Interaction flagged by Interaction matrix",
+    "gold_standard_reasoning": "Contraindicated for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-018",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 18"
+    ],
+    "current_medications": [
+      "Baseline med set 18"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-18",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Drug interactions — contraindicated for Polypharmacy (≥5 drugs)",
+    "interaction_details": "Interaction flagged by Interaction matrix",
+    "gold_standard_reasoning": "Contraindicated for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-019",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 19"
+    ],
+    "current_medications": [
+      "Baseline med set 19"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-19",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Drug interactions — contraindicated for Polypharmacy (≥5 drugs)",
+    "interaction_details": "Interaction flagged by Interaction matrix",
+    "gold_standard_reasoning": "Contraindicated for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP6-020",
+    "sub_population": "SP6",
+    "patient_age": 72,
+    "patient_sex": "M",
+    "patient_weight_kg": 68,
+    "chronic_conditions": [
+      "Polypharmacy (≥5 drugs) condition set 20"
+    ],
+    "current_medications": [
+      "Baseline med set 20"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP6-20",
+    "indication": "Test indication for Polypharmacy (≥5 drugs)",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Drug interactions — contraindicated for Polypharmacy (≥5 drugs)",
+    "interaction_details": "Interaction flagged by Interaction matrix",
+    "gold_standard_reasoning": "Contraindicated for Polypharmacy (≥5 drugs) per Interaction matrix"
+  },
+  {
+    "scenario_id": "SP7-001",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 1"
+    ],
+    "current_medications": [
+      "Baseline med set 1"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-1",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-002",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 2"
+    ],
+    "current_medications": [
+      "Baseline med set 2"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-2",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-003",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 3"
+    ],
+    "current_medications": [
+      "Baseline med set 3"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-3",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-004",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 4"
+    ],
+    "current_medications": [
+      "Baseline med set 4"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-4",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-005",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 5"
+    ],
+    "current_medications": [
+      "Baseline med set 5"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-5",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-006",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 6"
+    ],
+    "current_medications": [
+      "Baseline med set 6"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-6",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-007",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 7"
+    ],
+    "current_medications": [
+      "Baseline med set 7"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-7",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-008",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 8"
+    ],
+    "current_medications": [
+      "Baseline med set 8"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-8",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-009",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 9"
+    ],
+    "current_medications": [
+      "Baseline med set 9"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-9",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-010",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 10"
+    ],
+    "current_medications": [
+      "Baseline med set 10"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-10",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-011",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 11"
+    ],
+    "current_medications": [
+      "Baseline med set 11"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-11",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Cross-reactivity — contraindicated for Allergy history",
+    "interaction_details": "Interaction flagged by β-lactam class alert",
+    "gold_standard_reasoning": "Contraindicated for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-012",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 12"
+    ],
+    "current_medications": [
+      "Baseline med set 12"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-12",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Cross-reactivity — contraindicated for Allergy history",
+    "interaction_details": "Interaction flagged by β-lactam class alert",
+    "gold_standard_reasoning": "Contraindicated for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-013",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 13"
+    ],
+    "current_medications": [
+      "Baseline med set 13"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-13",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Cross-reactivity — contraindicated for Allergy history",
+    "interaction_details": "Interaction flagged by β-lactam class alert",
+    "gold_standard_reasoning": "Contraindicated for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-014",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 14"
+    ],
+    "current_medications": [
+      "Baseline med set 14"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-14",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Cross-reactivity — contraindicated for Allergy history",
+    "interaction_details": "Interaction flagged by β-lactam class alert",
+    "gold_standard_reasoning": "Contraindicated for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-015",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 15"
+    ],
+    "current_medications": [
+      "Baseline med set 15"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-15",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Cross-reactivity — contraindicated for Allergy history",
+    "interaction_details": "Interaction flagged by β-lactam class alert",
+    "gold_standard_reasoning": "Contraindicated for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-016",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 16"
+    ],
+    "current_medications": [
+      "Baseline med set 16"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-16",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Cross-reactivity — contraindicated for Allergy history",
+    "interaction_details": "Interaction flagged by β-lactam class alert",
+    "gold_standard_reasoning": "Contraindicated for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-017",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 17"
+    ],
+    "current_medications": [
+      "Baseline med set 17"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-17",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Cross-reactivity — contraindicated for Allergy history",
+    "interaction_details": "Interaction flagged by β-lactam class alert",
+    "gold_standard_reasoning": "Contraindicated for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-018",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 18"
+    ],
+    "current_medications": [
+      "Baseline med set 18"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-18",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Cross-reactivity — contraindicated for Allergy history",
+    "interaction_details": "Interaction flagged by β-lactam class alert",
+    "gold_standard_reasoning": "Contraindicated for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-019",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 19"
+    ],
+    "current_medications": [
+      "Baseline med set 19"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-19",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Cross-reactivity — contraindicated for Allergy history",
+    "interaction_details": "Interaction flagged by β-lactam class alert",
+    "gold_standard_reasoning": "Contraindicated for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP7-020",
+    "sub_population": "SP7",
+    "patient_age": 45,
+    "patient_sex": "M",
+    "patient_weight_kg": 70,
+    "chronic_conditions": [
+      "Allergy history condition set 20"
+    ],
+    "current_medications": [
+      "Baseline med set 20"
+    ],
+    "allergies": [
+      "Penicillin"
+    ],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP7-20",
+    "indication": "Test indication for Allergy history",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Cross-reactivity — contraindicated for Allergy history",
+    "interaction_details": "Interaction flagged by β-lactam class alert",
+    "gold_standard_reasoning": "Contraindicated for Allergy history per β-lactam class alert"
+  },
+  {
+    "scenario_id": "SP8-001",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 1"
+    ],
+    "current_medications": [
+      "Baseline med set 1"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-1",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-002",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 2"
+    ],
+    "current_medications": [
+      "Baseline med set 2"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-2",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-003",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 3"
+    ],
+    "current_medications": [
+      "Baseline med set 3"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-3",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-004",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 4"
+    ],
+    "current_medications": [
+      "Baseline med set 4"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-4",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-005",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 5"
+    ],
+    "current_medications": [
+      "Baseline med set 5"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-5",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-006",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 6"
+    ],
+    "current_medications": [
+      "Baseline med set 6"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-6",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-007",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 7"
+    ],
+    "current_medications": [
+      "Baseline med set 7"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-7",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-008",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 8"
+    ],
+    "current_medications": [
+      "Baseline med set 8"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-8",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-009",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 9"
+    ],
+    "current_medications": [
+      "Baseline med set 9"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-9",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-010",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 10"
+    ],
+    "current_medications": [
+      "Baseline med set 10"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-10",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-011",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 11"
+    ],
+    "current_medications": [
+      "Baseline med set 11"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-11",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infection risk — contraindicated for Immunocompromised",
+    "interaction_details": "Interaction flagged by Live vaccine contraindication",
+    "gold_standard_reasoning": "Contraindicated for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-012",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 12"
+    ],
+    "current_medications": [
+      "Baseline med set 12"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-12",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infection risk — contraindicated for Immunocompromised",
+    "interaction_details": "Interaction flagged by Live vaccine contraindication",
+    "gold_standard_reasoning": "Contraindicated for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-013",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 13"
+    ],
+    "current_medications": [
+      "Baseline med set 13"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-13",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infection risk — contraindicated for Immunocompromised",
+    "interaction_details": "Interaction flagged by Live vaccine contraindication",
+    "gold_standard_reasoning": "Contraindicated for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-014",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 14"
+    ],
+    "current_medications": [
+      "Baseline med set 14"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-14",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infection risk — contraindicated for Immunocompromised",
+    "interaction_details": "Interaction flagged by Live vaccine contraindication",
+    "gold_standard_reasoning": "Contraindicated for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-015",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 15"
+    ],
+    "current_medications": [
+      "Baseline med set 15"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-15",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infection risk — contraindicated for Immunocompromised",
+    "interaction_details": "Interaction flagged by Live vaccine contraindication",
+    "gold_standard_reasoning": "Contraindicated for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-016",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 16"
+    ],
+    "current_medications": [
+      "Baseline med set 16"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-16",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infection risk — contraindicated for Immunocompromised",
+    "interaction_details": "Interaction flagged by Live vaccine contraindication",
+    "gold_standard_reasoning": "Contraindicated for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-017",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 17"
+    ],
+    "current_medications": [
+      "Baseline med set 17"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-17",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infection risk — contraindicated for Immunocompromised",
+    "interaction_details": "Interaction flagged by Live vaccine contraindication",
+    "gold_standard_reasoning": "Contraindicated for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-018",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 18"
+    ],
+    "current_medications": [
+      "Baseline med set 18"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-18",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infection risk — contraindicated for Immunocompromised",
+    "interaction_details": "Interaction flagged by Live vaccine contraindication",
+    "gold_standard_reasoning": "Contraindicated for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-019",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 19"
+    ],
+    "current_medications": [
+      "Baseline med set 19"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-19",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infection risk — contraindicated for Immunocompromised",
+    "interaction_details": "Interaction flagged by Live vaccine contraindication",
+    "gold_standard_reasoning": "Contraindicated for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP8-020",
+    "sub_population": "SP8",
+    "patient_age": 50,
+    "patient_sex": "M",
+    "patient_weight_kg": 65,
+    "chronic_conditions": [
+      "Immunocompromised condition set 20"
+    ],
+    "current_medications": [
+      "Baseline med set 20"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP8-20",
+    "indication": "Test indication for Immunocompromised",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infection risk — contraindicated for Immunocompromised",
+    "interaction_details": "Interaction flagged by Live vaccine contraindication",
+    "gold_standard_reasoning": "Contraindicated for Immunocompromised per Live vaccine contraindication"
+  },
+  {
+    "scenario_id": "SP9-001",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 1"
+    ],
+    "current_medications": [
+      "Baseline med set 1"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-1",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-002",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 2"
+    ],
+    "current_medications": [
+      "Baseline med set 2"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-2",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-003",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 3"
+    ],
+    "current_medications": [
+      "Baseline med set 3"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-3",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-004",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 4"
+    ],
+    "current_medications": [
+      "Baseline med set 4"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-4",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-005",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 5"
+    ],
+    "current_medications": [
+      "Baseline med set 5"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-5",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-006",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 6"
+    ],
+    "current_medications": [
+      "Baseline med set 6"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-6",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-007",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 7"
+    ],
+    "current_medications": [
+      "Baseline med set 7"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-7",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-008",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 8"
+    ],
+    "current_medications": [
+      "Baseline med set 8"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-8",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-009",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 9"
+    ],
+    "current_medications": [
+      "Baseline med set 9"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-9",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-010",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 10"
+    ],
+    "current_medications": [
+      "Baseline med set 10"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-10",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-011",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 11"
+    ],
+    "current_medications": [
+      "Baseline med set 11"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-11",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Serotonin/QTc risk — contraindicated for Psychiatric comorbidity",
+    "interaction_details": "Interaction flagged by MAOi/SSRI interaction",
+    "gold_standard_reasoning": "Contraindicated for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-012",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 12"
+    ],
+    "current_medications": [
+      "Baseline med set 12"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-12",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Serotonin/QTc risk — contraindicated for Psychiatric comorbidity",
+    "interaction_details": "Interaction flagged by MAOi/SSRI interaction",
+    "gold_standard_reasoning": "Contraindicated for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-013",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 13"
+    ],
+    "current_medications": [
+      "Baseline med set 13"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-13",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Serotonin/QTc risk — contraindicated for Psychiatric comorbidity",
+    "interaction_details": "Interaction flagged by MAOi/SSRI interaction",
+    "gold_standard_reasoning": "Contraindicated for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-014",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 14"
+    ],
+    "current_medications": [
+      "Baseline med set 14"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-14",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Serotonin/QTc risk — contraindicated for Psychiatric comorbidity",
+    "interaction_details": "Interaction flagged by MAOi/SSRI interaction",
+    "gold_standard_reasoning": "Contraindicated for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-015",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 15"
+    ],
+    "current_medications": [
+      "Baseline med set 15"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-15",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Serotonin/QTc risk — contraindicated for Psychiatric comorbidity",
+    "interaction_details": "Interaction flagged by MAOi/SSRI interaction",
+    "gold_standard_reasoning": "Contraindicated for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-016",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 16"
+    ],
+    "current_medications": [
+      "Baseline med set 16"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-16",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Serotonin/QTc risk — contraindicated for Psychiatric comorbidity",
+    "interaction_details": "Interaction flagged by MAOi/SSRI interaction",
+    "gold_standard_reasoning": "Contraindicated for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-017",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 17"
+    ],
+    "current_medications": [
+      "Baseline med set 17"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-17",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Serotonin/QTc risk — contraindicated for Psychiatric comorbidity",
+    "interaction_details": "Interaction flagged by MAOi/SSRI interaction",
+    "gold_standard_reasoning": "Contraindicated for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-018",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 18"
+    ],
+    "current_medications": [
+      "Baseline med set 18"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-18",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Serotonin/QTc risk — contraindicated for Psychiatric comorbidity",
+    "interaction_details": "Interaction flagged by MAOi/SSRI interaction",
+    "gold_standard_reasoning": "Contraindicated for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-019",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 19"
+    ],
+    "current_medications": [
+      "Baseline med set 19"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-19",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Serotonin/QTc risk — contraindicated for Psychiatric comorbidity",
+    "interaction_details": "Interaction flagged by MAOi/SSRI interaction",
+    "gold_standard_reasoning": "Contraindicated for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP9-020",
+    "sub_population": "SP9",
+    "patient_age": 40,
+    "patient_sex": "M",
+    "patient_weight_kg": 80,
+    "chronic_conditions": [
+      "Psychiatric comorbidity condition set 20"
+    ],
+    "current_medications": [
+      "Baseline med set 20"
+    ],
+    "allergies": [],
+    "pregnancy_status": "N/A",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP9-20",
+    "indication": "Test indication for Psychiatric comorbidity",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Serotonin/QTc risk — contraindicated for Psychiatric comorbidity",
+    "interaction_details": "Interaction flagged by MAOi/SSRI interaction",
+    "gold_standard_reasoning": "Contraindicated for Psychiatric comorbidity per MAOi/SSRI interaction"
+  },
+  {
+    "scenario_id": "SP10-001",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 1"
+    ],
+    "current_medications": [
+      "Baseline med set 1"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-1",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-002",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 2"
+    ],
+    "current_medications": [
+      "Baseline med set 2"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-2",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-003",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 3"
+    ],
+    "current_medications": [
+      "Baseline med set 3"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-3",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-004",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 4"
+    ],
+    "current_medications": [
+      "Baseline med set 4"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-4",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-005",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 5"
+    ],
+    "current_medications": [
+      "Baseline med set 5"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-5",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-006",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 6"
+    ],
+    "current_medications": [
+      "Baseline med set 6"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-6",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-007",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 7"
+    ],
+    "current_medications": [
+      "Baseline med set 7"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-7",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-008",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 8"
+    ],
+    "current_medications": [
+      "Baseline med set 8"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-8",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-009",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 9"
+    ],
+    "current_medications": [
+      "Baseline med set 9"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-9",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-010",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 10"
+    ],
+    "current_medications": [
+      "Baseline med set 10"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-10",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "approve",
+    "contraindication_present": false,
+    "contraindication_details": "None",
+    "interaction_details": "None",
+    "gold_standard_reasoning": "Appropriate for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-011",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 11"
+    ],
+    "current_medications": [
+      "Baseline med set 11"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-11",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infant exposure — contraindicated for Lactating",
+    "interaction_details": "Interaction flagged by Lactation safety DB",
+    "gold_standard_reasoning": "Contraindicated for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-012",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 12"
+    ],
+    "current_medications": [
+      "Baseline med set 12"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-12",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infant exposure — contraindicated for Lactating",
+    "interaction_details": "Interaction flagged by Lactation safety DB",
+    "gold_standard_reasoning": "Contraindicated for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-013",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 13"
+    ],
+    "current_medications": [
+      "Baseline med set 13"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-13",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infant exposure — contraindicated for Lactating",
+    "interaction_details": "Interaction flagged by Lactation safety DB",
+    "gold_standard_reasoning": "Contraindicated for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-014",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 14"
+    ],
+    "current_medications": [
+      "Baseline med set 14"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-14",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infant exposure — contraindicated for Lactating",
+    "interaction_details": "Interaction flagged by Lactation safety DB",
+    "gold_standard_reasoning": "Contraindicated for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-015",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 15"
+    ],
+    "current_medications": [
+      "Baseline med set 15"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-15",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infant exposure — contraindicated for Lactating",
+    "interaction_details": "Interaction flagged by Lactation safety DB",
+    "gold_standard_reasoning": "Contraindicated for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-016",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 16"
+    ],
+    "current_medications": [
+      "Baseline med set 16"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-16",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infant exposure — contraindicated for Lactating",
+    "interaction_details": "Interaction flagged by Lactation safety DB",
+    "gold_standard_reasoning": "Contraindicated for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-017",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 17"
+    ],
+    "current_medications": [
+      "Baseline med set 17"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-17",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infant exposure — contraindicated for Lactating",
+    "interaction_details": "Interaction flagged by Lactation safety DB",
+    "gold_standard_reasoning": "Contraindicated for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-018",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 18"
+    ],
+    "current_medications": [
+      "Baseline med set 18"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-18",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infant exposure — contraindicated for Lactating",
+    "interaction_details": "Interaction flagged by Lactation safety DB",
+    "gold_standard_reasoning": "Contraindicated for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-019",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 19"
+    ],
+    "current_medications": [
+      "Baseline med set 19"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-19",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infant exposure — contraindicated for Lactating",
+    "interaction_details": "Interaction flagged by Lactation safety DB",
+    "gold_standard_reasoning": "Contraindicated for Lactating per Lactation safety DB"
+  },
+  {
+    "scenario_id": "SP10-020",
+    "sub_population": "SP10",
+    "patient_age": 30,
+    "patient_sex": "F",
+    "patient_weight_kg": 62,
+    "chronic_conditions": [
+      "Lactating condition set 20"
+    ],
+    "current_medications": [
+      "Baseline med set 20"
+    ],
+    "allergies": [],
+    "pregnancy_status": "Lactating",
+    "organ_function": {
+      "eGFR": 90,
+      "child_pugh": "A"
+    },
+    "requested_drug": "Test drug SP10-20",
+    "indication": "Test indication for Lactating",
+    "expected_decision": "deny",
+    "contraindication_present": true,
+    "contraindication_details": "Infant exposure — contraindicated for Lactating",
+    "interaction_details": "Interaction flagged by Lactation safety DB",
+    "gold_standard_reasoning": "Contraindicated for Lactating per Lactation safety DB"
+  }
+]

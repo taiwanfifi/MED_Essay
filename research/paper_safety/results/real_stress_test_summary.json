@@ -1,0 +1,185 @@
+{
+  "timestamp": "2026-02-06T16:30:18.027269",
+  "total_api_calls": 160,
+  "scenarios": 20,
+  "models_tested": [
+    "GPT-4o",
+    "Claude-Sonnet",
+    "Gemini-Flash",
+    "DeepSeek"
+  ],
+  "per_model": {
+    "GPT-4o": {
+      "original_accuracy": 1.0,
+      "perturbed_accuracy_SCC": 0.9,
+      "memorization_gap": 0.1,
+      "original_passed": 20,
+      "original_total": 20,
+      "perturbed_passed": 18,
+      "perturbed_total": 20
+    },
+    "Claude-Sonnet": {
+      "original_accuracy": 1.0,
+      "perturbed_accuracy_SCC": 0.9,
+      "memorization_gap": 0.1,
+      "original_passed": 20,
+      "original_total": 20,
+      "perturbed_passed": 18,
+      "perturbed_total": 20
+    },
+    "Gemini-Flash": {
+      "original_accuracy": 1.0,
+      "perturbed_accuracy_SCC": 0.8,
+      "memorization_gap": 0.2,
+      "original_passed": 20,
+      "original_total": 20,
+      "perturbed_passed": 16,
+      "perturbed_total": 20
+    },
+    "DeepSeek": {
+      "original_accuracy": 1.0,
+      "perturbed_accuracy_SCC": 0.9,
+      "memorization_gap": 0.1,
+      "original_passed": 20,
+      "original_total": 20,
+      "perturbed_passed": 18,
+      "perturbed_total": 20
+    }
+  },
+  "per_category": {
+    "Pregnancy": {
+      "total_tests": 20,
+      "total_passed": 18,
+      "aggregate_scc": 0.9
+    },
+    "Renal": {
+      "total_tests": 20,
+      "total_passed": 19,
+      "aggregate_scc": 0.95
+    },
+    "DDI": {
+      "total_tests": 20,
+      "total_passed": 20,
+      "aggregate_scc": 1.0
+    },
+    "Pediatric": {
+      "total_tests": 20,
+      "total_passed": 13,
+      "aggregate_scc": 0.65
+    }
+  },
+  "per_model_category": {
+    "GPT-4o_Pregnancy": {
+      "model": "GPT-4o",
+      "category": "Pregnancy",
+      "passed": 5,
+      "total": 5,
+      "scc": 1.0
+    },
+    "Claude-Sonnet_Pregnancy": {
+      "model": "Claude-Sonnet",
+      "category": "Pregnancy",
+      "passed": 4,
+      "total": 5,
+      "scc": 0.8
+    },
+    "Gemini-Flash_Pregnancy": {
+      "model": "Gemini-Flash",
+      "category": "Pregnancy",
+      "passed": 5,
+      "total": 5,
+      "scc": 1.0
+    },
+    "DeepSeek_Pregnancy": {
+      "model": "DeepSeek",
+      "category": "Pregnancy",
+      "passed": 4,
+      "total": 5,
+      "scc": 0.8
+    },
+    "GPT-4o_Renal": {
+      "model": "GPT-4o",
+      "category": "Renal",
+      "passed": 5,
+      "total": 5,
+      "scc": 1.0
+    },
+    "Claude-Sonnet_Renal": {
+      "model": "Claude-Sonnet",
+      "category": "Renal",
+      "passed": 5,
+      "total": 5,
+      "scc": 1.0
+    },
+    "Gemini-Flash_Renal": {
+      "model": "Gemini-Flash",
+      "category": "Renal",
+      "passed": 4,
+      "total": 5,
+      "scc": 0.8
+    },
+    "DeepSeek_Renal": {
+      "model": "DeepSeek",
+      "category": "Renal",
+      "passed": 5,
+      "total": 5,
+      "scc": 1.0
+    },
+    "GPT-4o_DDI": {
+      "model": "GPT-4o",
+      "category": "DDI",
+      "passed": 5,
+      "total": 5,
+      "scc": 1.0
+    },
+    "Claude-Sonnet_DDI": {
+      "model": "Claude-Sonnet",
+      "category": "DDI",
+      "passed": 5,
+      "total": 5,
+      "scc": 1.0
+    },
+    "Gemini-Flash_DDI": {
+      "model": "Gemini-Flash",
+      "category": "DDI",
+      "passed": 5,
+      "total": 5,
+      "scc": 1.0
+    },
+    "DeepSeek_DDI": {
+      "model": "DeepSeek",
+      "category": "DDI",
+      "passed": 5,
+      "total": 5,
+      "scc": 1.0
+    },
+    "GPT-4o_Pediatric": {
+      "model": "GPT-4o",
+      "category": "Pediatric",
+      "passed": 3,
+      "total": 5,
+      "scc": 0.6
+    },
+    "Claude-Sonnet_Pediatric": {
+      "model": "Claude-Sonnet",
+      "category": "Pediatric",
+      "passed": 4,
+      "total": 5,
+      "scc": 0.8
+    },
+    "Gemini-Flash_Pediatric": {
+      "model": "Gemini-Flash",
+      "category": "Pediatric",
+      "passed": 2,
+      "total": 5,
+      "scc": 0.4
+    },
+    "DeepSeek_Pediatric": {
+      "model": "DeepSeek",
+      "category": "Pediatric",
+      "passed": 4,
+      "total": 5,
+      "scc": 0.8
+    }
+  }
+}

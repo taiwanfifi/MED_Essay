@@ -1,0 +1,73 @@
+# ===== Archive (old reference materials, presentations, etc.) =====
+_archive/
+
+# ===== Secrets & Environment =====
+.env
+*.env
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+
+# ===== Large binary files =====
+*.pkl
+*.gguf
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== Presentations & Office files =====
+*.key
+*.pptx
+*.xls
+*.xlsx
+
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Claude Code internal =====
+.claude/
+
+# ===== Ollama / Vector DB storage =====
+qdrant_storage/
+
+# ===== LaTeX auxiliary files =====
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+
+# ===== Experiment checkpoints (temporary, auto-generated) =====
+**/.checkpoint_*.json
+**/.all_models_done.json
+**/.local_models_done.json
+
+# ===== Zip archives =====
+*.zip
+
+# ===== LaTeX spl files =====
+*.spl
+
+# ===== Misc =====
+ralph.txt

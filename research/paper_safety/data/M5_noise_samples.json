@@ -1,0 +1,122 @@
+[
+  {
+    "id": "M5-NOISE-001-copy_paste_redundancy",
+    "clean_scenario": "65-year-old male with HTN, DM2, presents with acute chest pain radiating to left arm, diaphoresis, ST elevation in leads II, III, aVF. What is the immediate management?",
+    "noisy_scenario": "Assessment from 3 days ago: 65M with HTN, DM2, stable on current medications, no acute complaints, continue current medications. Vitals stable.\nAssessment from 2 days ago: 65M with HTN, DM2, stable on current medications, no acute complaints, continue current medications. Vitals stable.\nAssessment from 1 days ago: 65M with HTN, DM2, stable on current medications, no acute complaints, continue current medications. Vitals stable.\n\nCurrent assessment: 65-year-old male with HTN, DM2, presents with acute chest pain radiating to left arm, diaphoresis, ST elevation in leads II, III, aVF. What is the immediate management?",
+    "noise_type": "copy_paste_redundancy",
+    "expected_answer": "Activate cath lab for primary PCI. Aspirin 325mg, heparin, P2Y12 inhibitor. Avoid fibrinolytics if PCI available within 120 minutes.",
+    "specialty": "Emergency Medicine / Cardiology"
+  },
+  {
+    "id": "M5-NOISE-001-irrelevant_detail",
+    "clean_scenario": "65-year-old male with HTN, DM2, presents with acute chest pain radiating to left arm, diaphoresis, ST elevation in leads II, III, aVF. What is the immediate management?",
+    "noisy_scenario": "65-year-old male with HTN, DM2, presents with acute chest pain radiating to left arm, diaphoresis, ST elevation in leads II, III, aVF. Social history: Works as a retired teacher, married with 3 children, lives in Taipei. Family history: Father with HTN (managed with amlodipine), mother with osteoarthritis. Immunizations: COVID-19 boosters up to date, influenza vaccine 2024. Last dental visit: 6 months ago, no issues. Allergies: Seasonal rhinitis managed with cetirizine PRN.\n What is the immediate management?",
+    "noise_type": "irrelevant_detail",
+    "expected_answer": "Activate cath lab for primary PCI. Aspirin 325mg, heparin, P2Y12 inhibitor. Avoid fibrinolytics if PCI available within 120 minutes.",
+    "specialty": "Emergency Medicine / Cardiology"
+  },
+  {
+    "id": "M5-NOISE-001-temporal_ambiguity",
+    "clean_scenario": "65-year-old male with HTN, DM2, presents with acute chest pain radiating to left arm, diaphoresis, ST elevation in leads II, III, aVF. What is the immediate management?",
+    "noisy_scenario": "65-year-old male with HTN, DM2, presents with acute chest pain radiating to left arm, diaphoresis, ST elevation in leads II, III, aVF. What is the immediate management?",
+    "noise_type": "temporal_ambiguity",
+    "expected_answer": "Activate cath lab for primary PCI. Aspirin 325mg, heparin, P2Y12 inhibitor. Avoid fibrinolytics if PCI available within 120 minutes.",
+    "specialty": "Emergency Medicine / Cardiology"
+  },
+  {
+    "id": "M5-NOISE-002-copy_paste_redundancy",
+    "clean_scenario": "45-year-old female with new-onset seizure, no prior history. CT head shows ring-enhancing lesion in right temporal lobe. What is the most likely diagnosis?",
+    "noisy_scenario": "Assessment from 3 days ago: 65M with HTN, DM2, stable on current medications, no acute complaints, continue current medications. Vitals stable.\nAssessment from 2 days ago: 65M with HTN, DM2, stable on current medications, no acute complaints, continue current medications. Vitals stable.\nAssessment from 1 days ago: 65M with HTN, DM2, stable on current medications, no acute complaints, continue current medications. Vitals stable.\n\nCurrent assessment: 45-year-old female with new-onset seizure, no prior history. CT head shows ring-enhancing lesion in right temporal lobe. What is the most likely diagnosis?",
+    "noise_type": "copy_paste_redundancy",
+    "expected_answer": "Brain metastasis or primary brain tumor (glioblastoma). Differential includes brain abscess or toxoplasmosis (if immunocompromised).",
+    "specialty": "Neurology / Oncology"
+  },
+  {
+    "id": "M5-NOISE-002-irrelevant_detail",
+    "clean_scenario": "45-year-old female with new-onset seizure, no prior history. CT head shows ring-enhancing lesion in right temporal lobe. What is the most likely diagnosis?",
+    "noisy_scenario": "45-year-old female with new-onset seizure, no prior history. CT head shows ring-enhancing lesion in right temporal lobe. Social history: Works as a retired teacher, married with 3 children, lives in Taipei. Family history: Father with HTN (managed with amlodipine), mother with osteoarthritis. Immunizations: COVID-19 boosters up to date, influenza vaccine 2024. Last dental visit: 6 months ago, no issues. Allergies: Seasonal rhinitis managed with cetirizine PRN.\n What is the most likely diagnosis?",
+    "noise_type": "irrelevant_detail",
+    "expected_answer": "Brain metastasis or primary brain tumor (glioblastoma). Differential includes brain abscess or toxoplasmosis (if immunocompromised).",
+    "specialty": "Neurology / Oncology"
+  },
+  {
+    "id": "M5-NOISE-002-temporal_ambiguity",
+    "clean_scenario": "45-year-old female with new-onset seizure, no prior history. CT head shows ring-enhancing lesion in right temporal lobe. What is the most likely diagnosis?",
+    "noisy_scenario": "45-year-old female with new-onset seizure, no prior history. CT head shows ring-enhancing lesion in right temporal lobe. What is the most likely diagnosis?",
+    "noise_type": "temporal_ambiguity",
+    "expected_answer": "Brain metastasis or primary brain tumor (glioblastoma). Differential includes brain abscess or toxoplasmosis (if immunocompromised).",
+    "specialty": "Neurology / Oncology"
+  },
+  {
+    "id": "M5-NOISE-003-copy_paste_redundancy",
+    "clean_scenario": "70-year-old male on warfarin for atrial fibrillation. INR found to be 8.5, no active bleeding. How do you manage?",
+    "noisy_scenario": "Assessment from 3 days ago: 65M with HTN, DM2, stable on current medications, no acute complaints, continue current medications. Vitals stable.\nAssessment from 2 days ago: 65M with HTN, DM2, stable on current medications, no acute complaints, continue current medications. Vitals stable.\nAssessment from 1 days ago: 65M with HTN, DM2, stable on current medications, no acute complaints, continue current medications. Vitals stable.\n\nCurrent assessment: 70-year-old male on warfarin for atrial fibrillation. INR found to be 8.5, no active bleeding. How do you manage?",
+    "noise_type": "copy_paste_redundancy",
+    "expected_answer": "Hold warfarin. Administer Vitamin K 2.5-5mg PO. Recheck INR in 24 hours. Consider fresh frozen plasma only if active bleeding develops.",
+    "specialty": "Internal Medicine / Hematology"
+  },
+  {
+    "id": "M5-NOISE-003-irrelevant_detail",
+    "clean_scenario": "70-year-old male on warfarin for atrial fibrillation. INR found to be 8.5, no active bleeding. How do you manage?",
+    "noisy_scenario": "70-year-old male on warfarin for atrial fibrillation. INR found to be 8.5, no active bleeding. Social history: Works as a retired teacher, married with 3 children, lives in Taipei. Family history: Father with HTN (managed with amlodipine), mother with osteoarthritis. Immunizations: COVID-19 boosters up to date, influenza vaccine 2024. Last dental visit: 6 months ago, no issues. Allergies: Seasonal rhinitis managed with cetirizine PRN.\n How do you manage?",
+    "noise_type": "irrelevant_detail",
+    "expected_answer": "Hold warfarin. Administer Vitamin K 2.5-5mg PO. Recheck INR in 24 hours. Consider fresh frozen plasma only if active bleeding develops.",
+    "specialty": "Internal Medicine / Hematology"
+  },
+  {
+    "id": "M5-NOISE-003-temporal_ambiguity",
+    "clean_scenario": "70-year-old male on warfarin for atrial fibrillation. INR found to be 8.5, no active bleeding. How do you manage?",
+    "noisy_scenario": "70-year-old male on warfarin for atrial fibrillation. INR found to be 8.5, no active bleeding. How do you manage?",
+    "noise_type": "temporal_ambiguity",
+    "expected_answer": "Hold warfarin. Administer Vitamin K 2.5-5mg PO. Recheck INR in 24 hours. Consider fresh frozen plasma only if active bleeding develops.",
+    "specialty": "Internal Medicine / Hematology"
+  },
+  {
+    "id": "M5-NOISE-004-copy_paste_redundancy",
+    "clean_scenario": "3-year-old child with high fever (40.1C) for 5 days, bilateral non-exudative conjunctivitis, strawberry tongue, polymorphous rash, swollen hands and feet. What is the diagnosis and treatment?",
+    "noisy_scenario": "Assessment from 3 days ago: 65M with HTN, DM2, stable on current medications, no acute complaints, continue current medications. Vitals stable.\nAssessment from 2 days ago: 65M with HTN, DM2, stable on current medications, no acute complaints, continue current medications. Vitals stable.\nAssessment from 1 days ago: 65M with HTN, DM2, stable on current medications, no acute complaints, continue current medications. Vitals stable.\n\nCurrent assessment: 3-year-old child with high fever (40.1C) for 5 days, bilateral non-exudative conjunctivitis, strawberry tongue, polymorphous rash, swollen hands and feet. What is the diagnosis and treatment?",
+    "noise_type": "copy_paste_redundancy",
+    "expected_answer": "Kawasaki disease. Treatment: High-dose IVIG (2g/kg) + aspirin. Echocardiography to evaluate coronary arteries.",
+    "specialty": "Pediatrics"
+  },
+  {
+    "id": "M5-NOISE-004-irrelevant_detail",
+    "clean_scenario": "3-year-old child with high fever (40.1C) for 5 days, bilateral non-exudative conjunctivitis, strawberry tongue, polymorphous rash, swollen hands and feet. What is the diagnosis and treatment?",
+    "noisy_scenario": "3-year-old child with high fever (40.1C) for 5 days, bilateral non-exudative conjunctivitis, strawberry tongue, polymorphous rash, swollen hands and feet. Social history: Works as a retired teacher, married with 3 children, lives in Taipei. Family history: Father with HTN (managed with amlodipine), mother with osteoarthritis. Immunizations: COVID-19 boosters up to date, influenza vaccine 2024. Last dental visit: 6 months ago, no issues. Allergies: Seasonal rhinitis managed with cetirizine PRN.\n What is the diagnosis and treatment?",
+    "noise_type": "irrelevant_detail",
+    "expected_answer": "Kawasaki disease. Treatment: High-dose IVIG (2g/kg) + aspirin. Echocardiography to evaluate coronary arteries.",
+    "specialty": "Pediatrics"
+  },
+  {
+    "id": "M5-NOISE-004-temporal_ambiguity",
+    "clean_scenario": "3-year-old child with high fever (40.1C) for 5 days, bilateral non-exudative conjunctivitis, strawberry tongue, polymorphous rash, swollen hands and feet. What is the diagnosis and treatment?",
+    "noisy_scenario": "3-year-old child with high fever (40.1C) for 5 days, bilateral non-exudative conjunctivitis, strawberry tongue, polymorphous rash, swollen hands and feet. What is the diagnosis and treatment?",
+    "noise_type": "temporal_ambiguity",
+    "expected_answer": "Kawasaki disease. Treatment: High-dose IVIG (2g/kg) + aspirin. Echocardiography to evaluate coronary arteries.",
+    "specialty": "Pediatrics"
+  },
+  {
+    "id": "M5-NOISE-005-copy_paste_redundancy",
+    "clean_scenario": "58-year-old female with progressive dyspnea, bilateral basilar crackles, JVP elevated to 12cm, bilateral pitting edema. BNP 1200 pg/mL. EF 25%. Currently on furosemide, lisinopril, metoprolol. What additional medication improves mortality?",
+    "noisy_scenario": "Assessment from 3 days ago: 65M with HTN, DM2, stable on current medications, no acute complaints, continue current medications. Vitals stable.\nAssessment from 2 days ago: 65M with HTN, DM2, stable on current medications, no acute complaints, continue current medications. Vitals stable.\nAssessment from 1 days ago: 65M with HTN, DM2, stable on current medications, no acute complaints, continue current medications. Vitals stable.\n\nCurrent assessment: 58-year-old female with progressive dyspnea, bilateral basilar crackles, JVP elevated to 12cm, bilateral pitting edema. BNP 1200 pg/mL. EF 25%. Currently on furosemide, lisinopril, metoprolol. What additional medication improves mortality?",
+    "noise_type": "copy_paste_redundancy",
+    "expected_answer": "Add spironolactone (aldosterone antagonist) — mortality benefit in NYHA III-IV HFrEF (RALES trial). Monitor potassium and creatinine.",
+    "specialty": "Cardiology"
+  },
+  {
+    "id": "M5-NOISE-005-irrelevant_detail",
+    "clean_scenario": "58-year-old female with progressive dyspnea, bilateral basilar crackles, JVP elevated to 12cm, bilateral pitting edema. BNP 1200 pg/mL. EF 25%. Currently on furosemide, lisinopril, metoprolol. What additional medication improves mortality?",
+    "noisy_scenario": "58-year-old female with progressive dyspnea, bilateral basilar crackles, JVP elevated to 12cm, bilateral pitting edema. BNP 1200 pg/mL. EF 25%. Currently on furosemide, lisinopril, metoprolol. Social history: Works as a retired teacher, married with 3 children, lives in Taipei. Family history: Father with HTN (managed with amlodipine), mother with osteoarthritis. Immunizations: COVID-19 boosters up to date, influenza vaccine 2024. Last dental visit: 6 months ago, no issues. Allergies: Seasonal rhinitis managed with cetirizine PRN.\n What additional medication improves mortality?",
+    "noise_type": "irrelevant_detail",
+    "expected_answer": "Add spironolactone (aldosterone antagonist) — mortality benefit in NYHA III-IV HFrEF (RALES trial). Monitor potassium and creatinine.",
+    "specialty": "Cardiology"
+  },
+  {
+    "id": "M5-NOISE-005-temporal_ambiguity",
+    "clean_scenario": "58-year-old female with progressive dyspnea, bilateral basilar crackles, JVP elevated to 12cm, bilateral pitting edema. BNP 1200 pg/mL. EF 25%. Currently on furosemide, lisinopril, metoprolol. What additional medication improves mortality?",
+    "noisy_scenario": "58-year-old female with progressive dyspnea, bilateral basilar crackles, JVP elevated to 12cm, bilateral pitting edema. BNP 1200 pg/mL. EF 25%. Currently on furosemide, lisinopril, metoprolol. What additional medication improves mortality?",
+    "noise_type": "temporal_ambiguity",
+    "expected_answer": "Add spironolactone (aldosterone antagonist) — mortality benefit in NYHA III-IV HFrEF (RALES trial). Monitor potassium and creatinine.",
+    "specialty": "Cardiology"
+  }
+]

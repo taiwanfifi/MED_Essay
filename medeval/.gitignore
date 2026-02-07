@@ -1,0 +1,16 @@
+# API keys — 絕對不能上傳
+.env
+
+# Database
+db/*.db
+
+# Downloaded data cache
+datasets/data/*
+!datasets/data/.gitkeep
+
+# Results
+results/
+
+# Python
+__pycache__/
+*.pyc
